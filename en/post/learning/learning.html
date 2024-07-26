@@ -3,13 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><strong>SQL Tutorial</strong></title>
+    <title>Learning Tutorials</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header, footer { text-align: center; margin: 20px 0; }
+        nav { text-align: center; margin: 20px 0; }
+        nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF; }
+        section { margin: 20px; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+    </style>
+    <script>
+        function openTab(tabName) {
+            var i, tabcontent;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
 </head>
 <body>
     <header>
-        <h1>SQL Learning</h1>
+        <h1>Learning Tutorials</h1>
     </header>
-    <main>
+    <nav>
+        <a href="javascript:void(0);" onclick="openTab('sql')">SQL Learning</a>
+        <a href="javascript:void(0);" onclick="openTab('aspnet')">ASP.NET Learning</a>
+    </nav>
+    <section id="sql" class="tab-content">
+        <h1>SQL Learning</h1>
         <p>SQL is a standard language used for storing, manipulating, and retrieving data in databases.
             In this SQL tutorial, we will explore how to use SQL in various database systems including MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, PostgreSQL, and others
             ..
@@ -23,7 +47,7 @@
             <li>Utilization of SQL for retrieving the desired data.</li>
             <li>Incorporation of HTML/CSS for page styling.</li>
         </ol>
-      <p> Every table is divided into smaller parts called fields. For example, the Customers table has fields like CustomerID, CustomerName, ContactName, Address, City, PostalCode, and Country. Each field is a column that holds specific information about each record.
+        <p> Every table is divided into smaller parts called fields. For example, the Customers table has fields like CustomerID, CustomerName, ContactName, Address, City, PostalCode, and Country. Each field is a column that holds specific information about each record.
 
 A record, or row, is a single entry in the table. For instance, the Customers table has 91 records. A record is a horizontal line of data.
 
@@ -31,34 +55,37 @@ A column is a vertical section in a table that contains all the information for 
 
         <p>Some database systems require a semicolon at the end of each SQL statement And keep in mind SQL keywords are NOT case sensitive: select is the same as SELECT</p>
         <hr>
-<h2>Some of The Most Important SQL Commands</h2>
-<ul>
-  <li><code class="w3-codespan">SELECT</code> - extracts data from a database</li>
-  <li><code class="w3-codespan">UPDATE</code> - updates data in a database</li>
-  <li><code class="w3-codespan">DELETE</code> - deletes data from a database</li>
-  <li><code class="w3-codespan">INSERT INTO</code> - inserts new data into a database</li>
-  <li><code class="w3-codespan">CREATE DATABASE</code> - creates a new database</li>
-  <li><code class="w3-codespan">ALTER DATABASE</code> - modifies a database</li>
-  <li><code class="w3-codespan">CREATE TABLE</code> - creates a new table</li>
-  <li><code class="w3-codespan">ALTER TABLE</code> - modifies a table</li>
-  <li><code class="w3-codespan">DROP TABLE</code> - deletes a table</li>
-  <li><code class="w3-codespan">CREATE INDEX</code> - creates an index (search key)</li>
-  <li><code class="w3-codespan">DROP INDEX</code> - deletes an index
-  </li>
-</ul>
+        <h2>Some of The Most Important SQL Commands</h2>
+        <ul>
+          <li><code class="w3-codespan">SELECT</code> - extracts data from a database</li>
+          <li><code class="w3-codespan">UPDATE</code> - updates data in a database</li>
+          <li><code class="w3-codespan">DELETE</code> - deletes data from a database</li>
+          <li><code class="w3-codespan">INSERT INTO</code> - inserts new data into a database</li>
+          <li><code class="w3-codespan">CREATE DATABASE</code> - creates a new database</li>
+          <li><code class="w3-codespan">ALTER DATABASE</code> - modifies a database</li>
+          <li><code class="w3-codespan">CREATE TABLE</code> - creates a new table</li>
+          <li><code class="w3-codespan">ALTER TABLE</code> - modifies a table</li>
+          <li><code class="w3-codespan">DROP TABLE</code> - deletes a table</li>
+          <li><code class="w3-codespan">CREATE INDEX</code> - creates an index (search key)</li>
+          <li><code class="w3-codespan">DROP INDEX</code> - deletes an index
+          </li>
+        </ul>
         <hr>
 
-<h2>The SQL SELECT Statement</h2>
-<p>The <code class="w3-codespan">SELECT</code> statement is used to select data from a database.</p>
+        <h2>The SQL SELECT Statement</h2>
+        <p>The <code class="w3-codespan">SELECT</code> statement is used to select data from a database.</p>
 
-<div class="w3-example">
-<h3>Example</h3>
-<p>Return data from the Customers table:</p>
-<div class="w3-code notranslate sqlHigh">
-SELECT CustomerName, City FROM Customers;
-</div>
-
-    </main>
+        <div class="w3-example">
+        <h3>Example</h3>
+        <p>Return data from the Customers table:</p>
+        <div class="w3-code notranslate sqlHigh">
+        SELECT CustomerName, City FROM Customers;
+        </div>
+    </section>
+    <section id="aspnet" class="tab-content">
+        <h1>ASP.NET Learning</h1>
+        <!-- Add content for ASP.NET here once provided -->
+    </section>
     <footer>
         <p>Sanaz.</p>
     </footer>
