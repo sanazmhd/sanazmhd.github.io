@@ -3,89 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Tutorials</title>
+    <title>Learning Posts</title>
     <style>
         body { font-family: Arial, sans-serif; }
-        header, footer { text-align: center; margin: 20px 0; }
-        nav { text-align: center; margin: 20px 0; }
-        nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #007BFF; }
-        section { margin: 20px; }
+        header, footer { text-align: center; padding: 1em; background-color: #f4f4f4; }
+        main { padding: 2em; }
+        nav ul { list-style-type: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 10px; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
     </style>
     <script>
-        function openTab(tabName) {
-            var i, tabcontent;
-            tabcontent = document.getElementsByClassName("tab-content");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            document.getElementById(tabName).style.display = "block";
+        function showTab(tabId) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
         }
     </script>
 </head>
 <body>
     <header>
-        <h1>Learning Tutorials</h1>
+        <h1>Learning Posts</h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="showTab('aspnet')">ASP.NET with Dofactory</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="javascript:void(0);" onclick="openTab('sql')">SQL Learning</a>
-        <a href="javascript:void(0);" onclick="openTab('aspnet')">ASP.NET Learning</a>
-    </nav>
-    <section id="sql" class="tab-content">
-        <h1>SQL Learning</h1>
-        <p>SQL is a standard language used for storing, manipulating, and retrieving data in databases.
-            In this SQL tutorial, we will explore how to use SQL in various database systems including MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, PostgreSQL, and others
-            ..
-        </p>
-        <p>When creating a website to display data from a database, you'll require the following:</p>
-        <ol>
-            <li>An RDBMS (Relational Database Management System) database system (e.g., MS Access, SQL Server, MySQL).
-           RDBMS is the basis for SQL and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
-            The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.</li>
-            <li>A server-side scripting language such as PHP or ASP.</li>
-            <li>Utilization of SQL for retrieving the desired data.</li>
-            <li>Incorporation of HTML/CSS for page styling.</li>
-        </ol>
-        <p> Every table is divided into smaller parts called fields. For example, the Customers table has fields like CustomerID, CustomerName, ContactName, Address, City, PostalCode, and Country. Each field is a column that holds specific information about each record.
+    <main>
+        <!-- ASP.NET with Dofactory Content -->
+        <div id="aspnet" class="tab-content active">
+            <h2>ASP.NET with Dofactory</h2>
+            <p>The Dofactory .NET 6 framework provides a comprehensive set of tools and examples to help .NET Core developers build robust applications quickly. It focuses on leveraging design patterns, clean architectures, and low-code solutions.</p>
 
-A record, or row, is a single entry in the table. For instance, the Customers table has 91 records. A record is a horizontal line of data.
+            <h3>Introduction</h3>
+            <p>Dofactory .NET 6 is a rapid application development framework tailored for .NET Core developers. It assumes familiarity with C# and offers numerous reference applications to demonstrate real-world coding techniques and design patterns. The framework supports .NET Core 6 and higher, incorporating the latest language features such as nullable reference types and minimal hosting models.</p>
 
-A column is a vertical section in a table that contains all the information for a specific field.</p>
+            <h3>Setup and Installation</h3>
+            <p>The framework is distributed as a zip file. After unzipping, it's recommended to install it in a local directory (e.g., C:\Users\%username%\Documents\Dofactory.NET 6\*.*). The package includes multiple editions: Standard, Plus, and Pro, each adding more advanced features and reference applications.</p>
+            <p>To run the applications, Visual Studio 2022 or later is required. Ensure that you have the Web Development and .NET Desktop Development workloads installed. The applications use LocalDb by default but can be configured to use SQL Server if preferred.</p>
 
-        <p>Some database systems require a semicolon at the end of each SQL statement And keep in mind SQL keywords are NOT case sensitive: select is the same as SELECT</p>
-        <hr>
-        <h2>Some of The Most Important SQL Commands</h2>
-        <ul>
-          <li><code class="w3-codespan">SELECT</code> - extracts data from a database</li>
-          <li><code class="w3-codespan">UPDATE</code> - updates data in a database</li>
-          <li><code class="w3-codespan">DELETE</code> - deletes data from a database</li>
-          <li><code class="w3-codespan">INSERT INTO</code> - inserts new data into a database</li>
-          <li><code class="w3-codespan">CREATE DATABASE</code> - creates a new database</li>
-          <li><code class="w3-codespan">ALTER DATABASE</code> - modifies a database</li>
-          <li><code class="w3-codespan">CREATE TABLE</code> - creates a new table</li>
-          <li><code class="w3-codespan">ALTER TABLE</code> - modifies a table</li>
-          <li><code class="w3-codespan">DROP TABLE</code> - deletes a table</li>
-          <li><code class="w3-codespan">CREATE INDEX</code> - creates an index (search key)</li>
-          <li><code class="w3-codespan">DROP INDEX</code> - deletes an index
-          </li>
-        </ul>
-        <hr>
+            <h3>Key Features and Editions</h3>
+            <ul>
+                <li><strong>Standard Edition:</strong> Focuses on design patterns like Gang of Four and Enterprise Architecture. Includes applications like Analytics and Art Shop.</li>
+                <li><strong>Plus Edition:</strong> Introduces CQRS and SaaS patterns, along with a modern multi-tenant SaaS application and the Spark code generator.</li>
+                <li><strong>Pro Edition:</strong> Completes the package with chapters on Ultra-Clean Architecture and the 33-Day App Factory, including the 33-Day CRM application.</li>
+            </ul>
 
-        <h2>The SQL SELECT Statement</h2>
-        <p>The <code class="w3-codespan">SELECT</code> statement is used to select data from a database.</p>
+            <h3>Learning Path</h3>
+            <p>For a comprehensive understanding, start with Chapters 2 (Design Excellence) and 3 (Code Excellence). Students should follow all chapters sequentially, while mid-level developers can start at Chapter 6, and experienced architects might focus on Chapters 9 and onward.</p>
 
-        <div class="w3-example">
-        <h3>Example</h3>
-        <p>Return data from the Customers table:</p>
-        <div class="w3-code notranslate sqlHigh">
-        SELECT CustomerName, City FROM Customers;
+            <h3>Usage and Licensing</h3>
+            <p>The Dofactory .NET 6 framework can be used in personal and commercial applications. However, it cannot be used to create competing frameworks or libraries. The package comes with a single-developer license, and site licenses are available for multiple users.</p>
         </div>
-    </section>
-    <section id="aspnet" class="tab-content">
-        <h1>ASP.NET Learning</h1>
-        <!-- Add content for ASP.NET here once provided -->
-    </section>
+    </main>
     <footer>
         <p>Sanaz.</p>
     </footer>
