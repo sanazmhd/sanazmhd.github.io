@@ -15,13 +15,6 @@
     <atom:link href="https://sanazmhd.github.io/tags/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Container Lab Training</title>
-      <link>https://sanazmhd.github.io/posts/containerlab-training-copy/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/posts/containerlab-training-copy/</guid>
-      <description>An introduction to Containerlab basics.</description>
-    </item>
-    <item>
-      <title>Container Lab Training</title>
       <link>https://sanazmhd.github.io/posts/containerlab-training/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://sanazmhd.github.io/posts/containerlab-training/</guid>
