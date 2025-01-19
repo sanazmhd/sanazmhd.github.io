@@ -1,37 +1,3 @@
----
-title: "Set Up a Network Tutorial"
-date: 2020-09-15T11:30:03+00:00
-tags: ["Network", "Tutorial"]
-author: "Me"
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
-description: "An introduction to Network basics."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true
-disableShare: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-    image: "/images/image.png"
-    alt: "Containerlab basics"
-    caption: "© 2021 Nokia"
-    relative: false
-    hidden: false
-editPost:
-    URL: "https://github.com/yourusername/your-repo-path/content/posts/Network Lab.md"
-    Text: "Suggest Changes"
-    appendFilePath: true
----
-
 # How to Set Up a Network: A Practical Guide
 
 In this tutorial, we will cover the step-by-step process of setting up a network in a practical environment. We are in a room with three nodes, and the cables for these nodes have already been laid. We will connect the client nodes to a server room where a patch panel is installed. Below is a clear, structured guide to achieve this.
@@ -58,22 +24,22 @@ In this tutorial, we will cover the step-by-step process of setting up a network
 1. **Prepare the Cable:**
    - Strip the outer plastic layer of the cable.
    - Untwist the internal pairs of wires and separate them into pairs (two wires per pair).
-   ![Prepare the Cable](./Image/PreparetheCable.png)
+   ![Prepare the Cable](/images/PreparetheCable.png)
 
 2. **Follow Class B Standard:**
    - Use the Class B wiring standard to arrange the pairs.
    - Insert the wires into the appropriate slots on the keystone jack as per the color code.
-   ![Class B](./Image/ClassB.png)
+   ![Class B](/images/ClassB.png)
 
 3. **Punch Down the Wires:**
    - Use a punch-down tool to secure the wires onto the keystone jack.
    - Ensure the cutting edge of the tool faces inward to avoid damaging the wires.
-   ![Punch](./Image/Punch.png)
+   ![Punch](/images/Punch.png)
 
 4. **Secure the Cable:**
    - Use the plastic clip provided with the keystone jack to fasten the cable securely.
    - Snap on the keystone jack’s plastic cover to organize the wires.
-   ![Secure cable](./Image/Securecable.png)
+   ![Secure cable](/images/Securecable.png)
 
 5. **Label the Jack:**
    - Assign a unique number to each keystone jack to identify the corresponding node.
@@ -86,7 +52,7 @@ In this tutorial, we will cover the step-by-step process of setting up a network
 1. **Prepare the Patch Panel:**
    - Gather all cables from the nodes and route them to the back of the patch panel.
    - Follow the Class B wiring standard for consistency.
-   ![Patch Panel](./Image/PatchPanel.png)
+   ![Patch Panel](/images/PatchPanel.png)
 
 2. **Terminate the Cables:**
    - Insert each cable into its designated slot on the patch panel.
@@ -98,7 +64,7 @@ In this tutorial, we will cover the step-by-step process of setting up a network
 
 4. **Mount the Patch Panel:**
    - Install the patch panel securely onto the rack.
-   ![Prepared Patch Panel](./Image/PreparedPatchPanel.png)
+   ![Prepared Patch Panel](/images/PreparedPatchPanel.png)
 
 ---
 
@@ -111,7 +77,7 @@ In this tutorial, we will cover the step-by-step process of setting up a network
    - Connect one end of the cable to the remote module at the keystone jack.
    - Connect the other end to the central controller at the patch panel.
    - If the installation is correct, all indicator lights on the tester will blink in sequence.
-   ![Prepare the Cable](./Image/PreparetheCable.png)
+   ![Prepare the Cable](/images/PreparetheCable.png)
 
 3. **Troubleshooting:**
    - If any lights fail to blink, re-check the wiring at both the keystone jack and the patch panel.
