@@ -1,0 +1,12 @@
+baseURL = "https://sanazmhd.github.io/"
+languageCode = "en-us"
+title = "Sanaz's Website"
+theme = "ananke" # Replace "ananke" with your chosen theme name
+
+[params]
+  author = "Sanaz"
+  description = "A personal site to share Containerlab and networking knowledge."
+
+[permalinks]
+  posts = "/posts/:slug/"
+
