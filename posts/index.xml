@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Sanaz</title>
-    <link>https://sanazmhd.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Sanaz</description>
     <image>
       <title>Sanaz</title>
-      <url>https://sanazmhd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://sanazmhd.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://sanazmhd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Container Lab Tutorial</title>
-      <link>https://sanazmhd.github.io/posts/containerlab-training/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/posts/containerlab-training/</guid>
-      <description>An introduction to Containerlab basics.</description>
+      <title></title>
+      <link>http://localhost:1313/posts/newfile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/newfile/</guid>
+      <description>How to Set Up a Network: A Practical Guide In this tutorial, we will cover the step-by-step process of setting up a network in a practical environment. we are in a room with three nodes, and the cables for these nodes have already been laid. We will connect the client nodes to a server room where a patch panel is installed. Below is a clear, structured guide to achieve this.</description>
     </item>
   </channel>
 </rss>

@@ -1,3 +1,4 @@
+title: "Set Up a Network Tutorial"
 # How to Set Up a Network: A Practical Guide
 
 In this tutorial, we will cover the step-by-step process of setting up a network in a practical environment. we are in a room with three nodes, and the cables for these nodes have already been laid. We will connect the client nodes to a server room where a patch panel is installed. Below is a clear, structured guide to achieve this.
