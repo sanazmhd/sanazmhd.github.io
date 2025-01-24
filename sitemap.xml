@@ -2,45 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/posts/newfile/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>http://localhost:1313/tags/</loc>
-=======
-    <loc>//localhost:1313/tags/networking/</loc>
+  </url>
+  <url>
+    <loc>/tags/networking/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
+  </url>
+  <url>
+    <loc>/posts/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
+  </url>
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
+  </url>
+  <url>
+    <loc>/tags/tutorial/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/vpn/</loc>
+  </url>
+  <url>
+    <loc>/tags/vpn/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
+  </url>
+  <url>
+    <loc>/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/vpn-setup-tutorial/</loc>
+  </url>
+  <url>
+    <loc>/posts/vpn-setup-tutorial/</loc>
     <lastmod>2025-01-21T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/network/</loc>
+  </url>
+  <url>
+    <loc>/tags/network/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/network-lab/</loc>
+  </url>
+  <url>
+    <loc>/posts/network-lab/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
->>>>>>> 102c1dc (Deploy website)
+  </url>
+  <url>
+    <loc>/categories/</loc>
   </url>
 </urlset>
+
