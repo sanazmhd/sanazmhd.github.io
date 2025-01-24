@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on VPN Setup Tutorial</title>
+    <link>//localhost:1313/tags/networking/</link>
+    <description>Recent content in Networking on VPN Setup Tutorial</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VPN Setup Tutorial</title>
+      <link>//localhost:1313/posts/vpn-setup-tutorial/</link>
+      <pubDate>Tue, 21 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/vpn-setup-tutorial/</guid>
+      <description>VPN Setup Tutorial: A Practical Guide This tutorial guides you through setting up a secure VPN using WireGuard.&#xA;Prerequisites AWS Server (Ubuntu). Ubuntu Client. Linux Command Knowledge. Steps Launch an AWS EC2 Instance. Install WireGuard on the Server and Client. Configure the server with the required keys. Test the VPN using curl ifconfig.me. Enjoy secure, encrypted connections!</description>
+    </item>
+  </channel>
+</rss>
