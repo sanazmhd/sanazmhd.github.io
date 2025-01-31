@@ -1,0 +1,6 @@
+baseURL = "https://sanazmhd.github.io/"
+
+title = "My Personal Website"
+theme = "ananke"
+languageCode = "en-us"
+
