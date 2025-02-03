@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Personal Website</title>
-    <link>https://sanazmhd.github.io/</link>
+    <link>http://localhost:41069/</link>
     <description>Recent content on My Personal Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Jan 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sanazmhd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:41069/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://sanazmhd.github.io/posts/my-first-post/</link>
+      <link>http://localhost:41069/posts/my-first-post/</link>
       <pubDate>Fri, 31 Jan 2025 12:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:41069/posts/my-first-post/</guid>
       <description>Welcome to my Hugo site! This is my first post.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://sanazmhd.github.io/about/</link>
+      <link>http://localhost:41069/about/</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/about/</guid>
+      <guid>http://localhost:41069/about/</guid>
       <description>I am a passionate telecom and network engineer with a strong interest in Time-Sensitive Networking (TSN) and Software-Defined Networking (SDN). During my recent research at Ghent University – imec, I focused on latency-aware topology discovery in SDN-based TSNs, which are essential for real-time communications in critical applications such as healthcare, industrial automation, and transportation.</description>
     </item>
   </channel>
