@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Amir Hadifar</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Amir Hadifar</description>
+    <image>
+      <title>Amir Hadifar</title>
+      <url>http://localhost:1313/papermod-cover.png</url>
+      <link>http://localhost:1313/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>چیزهایی که راجع بلژیک بد نیست بدانیم!</title>
+      <link>http://localhost:1313/posts/second.fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second.fa/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;.چیزهایی که در اینجا مینویسم صرفا تجربیات شخصی هست و اگر مفید نیست میتونید اون رو نادیده بگیرید&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;سعی میکنم به صورت سوال جواب این پست رو بنویسم و کم کم اون رو گسترش بدم. شما هم اگر سوال داشتیید میتونید ایمیل بزنید و اگر بلد بودم اینجا اضافه کنم. این سوال جوابها معمولا چیزهایی هست که برای خودم یا اطرافیانم اتفاق افتاده و میتونه به مابقی افراد هم کمک کنه.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>لغو تعهد، آزادسازی مدرک تحصیلی، ترجمه و لگالایز کردن</title>
+      <link>http://localhost:1313/posts/first.fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first.fa/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;اطلاعاتی که دراین پست میخونید ممکن هست یکم قدیمی باشه چون برای زمانی هست که من اپلای میکردم.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;یکی از مواردی که در این چند وقت درگیرش بودم، آزاد‌سازی مدرک و لغو تعهد خدمت برای دانشگاه بود. طبق قانون وزارت علوم کسایی که در دانشگاه‌های دولتی (روزانه) درس می‌خوانند باید به ازای سال‌های تحصیل به کشور خدمت کنند. تعداد سال‌های خدمت در گواهی موقت شما خورده است که به مقطع شما (کارشناسی، ارشد یا دکتری) و نوع پذیرش شما در کنکور کارشناسی (منطقه ۱، ۲ و ۳) بستگی دارد. برای کسانی که میخواهند مدرکشون رو آزاد کنند به طور کلی ۵ حالت وجود دارد:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
