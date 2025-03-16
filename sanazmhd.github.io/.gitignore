@@ -1,11 +1,5 @@
-*.log
-*.tmp
-*.swp
-*.bak
-.DS_Store
-.idea/
-.vscode/
-node_modules/
-.cache/
-.gitconfig
-.bash_history
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
