@@ -8,10 +8,10 @@ layout: "archives"
 
 Here are some of my published research papers:  
 
-- [📄 Latency-aware Topology Discovery in SDN-based Time-Sensitive Networks](https://sanazmhd.github.io/papers/paper-Ugent.pdf)  
-- [📄 Perpetual Network Coding for Delay Sensitive Applications](Perpetual%20Network%20Coding%20for%20Delay%20Sensitive%20Applications.pdf)  
-- [📄 Evaluation of Decoding Delay in the Perpetual Coding](JASP_Volume%204_Issue%201_Pages%20111-119.pdf)  
-- [📄 Analysis of Sparse Network Coding Method for Real-Time Applications](JASPPages%2047-57.pdf)  
+- [📄 Latency-aware Topology Discovery in SDN-based Time-Sensitive Networks](paper-Ugent.pdf)  
+- [📄 Perpetual Network Coding for Delay Sensitive Applications](Perpetual Network Coding for Delay Sensitive Applications.pdf)  
+- [📄 Evaluation of Decoding Delay in the Perpetual Coding](JASP_Volume 4_Issue 1_Pages 111-119.pdf)  
+- [📄 Analysis of Sparse Network Coding Method for Real-Time Applications](JASPPages 47-57.pdf)  
 
 ## 🎓 My Degrees and Certificates
 
