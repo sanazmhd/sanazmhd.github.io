@@ -1,1 +1,0 @@
-# https-sanazmhd.github.io-
