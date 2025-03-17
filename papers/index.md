@@ -1,7 +1,7 @@
-=---
+---
 title: "My Research Papers"
 summary: "A list of my published research papers."
-layout: archives
+type: archives
 ---
 
 ## 📚 My Research Papers  
