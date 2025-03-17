@@ -1,0 +1,183 @@
+baseURL: "https://sanazmhd.github.io/"
+title: Sanaz
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+  en:
+    languageName: "En"
+    weight: 1
+    #taxonomies:
+    #  category: categories
+    #  tag: tags
+    #  series: series
+    #menu:
+    #  main:
+    #    - name: Archive
+    #      url: archives
+    #      weight: 5
+    #    - name: Search
+    #      url: search/
+    #      weight: 10
+    #    - name: Tags
+    #      url: tags/
+    #      weight: 10
+    params:
+      HomeInfoParams:
+        Title: Sanaz
+        Content: I am sanaz.
+
+  fa:
+    languageDirection: rtl
+    languageName: "Fa"
+    weight: 1
+    title: ساناز 
+    #taxonomies:
+    #  category: FRcategories
+    #  tag: FRtags
+    #  series: FRseries
+    params:
+      HomeInfoParams:
+          Title: سلام!
+          Content: ی.
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Theme PaperMod - https://github.com/sanazmhd/"
+    author: Theme PaperMod
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: false
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: false
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: Sanaz
+        imageUrl: "https://www.dropbox.com/s/1li9nqixxoimug3/me.jpg?dl=1"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+#        buttons:
+#           - name: Archives
+#              url: archives/
+#            - name: Search
+#              url: search/
+
+#    homeInfoParams:
+#        Title: "researcher"
+#        Content: >
+#                I am Sanaz.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/sanazmhd"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/25545258/sanaz"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/sanaz-mhd/"
+        - name: googlescholar
+          url: "https://scholar.google.com/"
+        - name: twitter
+          url: "https://x.com/"
+        - name: Resources
+          url: "https://sanazmhd.github.io/Resources/"
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    assets:
+        favicon: "https://www.dropbox.com/s/6yibiw9ow6uhn5m/favicon.ico?dl=1"
+        favicon16x16: "https://www.dropbox.com/s/yllnhi3xvbblmkq/favicon-16x16.png?dl=1"
+        favicon32x32: "https://www.dropbox.com/s/asou6xm4f4lmkmm/favicon-32x32.png?dl=1"
+        apple_touch_icon: "https://www.dropbox.com/s/qhblg3zmsyxiipr/apple-touch-icon.png?dl=1"
+        safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+     goldmark:
+        renderer:
+            unsafe: true
+     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+         noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+
