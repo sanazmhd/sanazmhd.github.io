@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fa/posts/second/</loc>
+    <loc>https://sanazmhd.github.io/fa/posts/second/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/posts/first/</loc>
+    <loc>https://sanazmhd.github.io/fa/posts/first/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/categories/</loc>
+    <loc>https://sanazmhd.github.io/fa/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://sanazmhd.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/categories/"
+                href="https://sanazmhd.github.io/fa/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/posts/</loc>
+    <loc>https://sanazmhd.github.io/fa/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/series/</loc>
+    <loc>https://sanazmhd.github.io/fa/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://sanazmhd.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/series/"
+                href="https://sanazmhd.github.io/fa/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/tags/</loc>
+    <loc>https://sanazmhd.github.io/fa/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://sanazmhd.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/tags/"
+                href="https://sanazmhd.github.io/fa/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fa/search/</loc>
+    <loc>https://sanazmhd.github.io/fa/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/fa/</loc>
+    <loc>https://sanazmhd.github.io/fa/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://sanazmhd.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/"
+                href="https://sanazmhd.github.io/fa/"
                 />
   </url>
 </urlset>

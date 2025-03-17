@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Series on ساناز</title>
-    <link>http://localhost:1313/fa/series/</link>
+    <link>https://sanazmhd.github.io/fa/series/</link>
     <description>Recent content in Series on ساناز</description>
     <image>
       <title>ساناز</title>
-      <url>http://localhost:1313/papermod-cover.png</url>
-      <link>http://localhost:1313/papermod-cover.png</link>
+      <url>https://sanazmhd.github.io/papermod-cover.png</url>
+      <link>https://sanazmhd.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>fa</language>
-    <atom:link href="http://localhost:1313/fa/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sanazmhd.github.io/fa/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
