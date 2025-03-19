@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>فارسی</title>
+    <link>http://localhost:1313/fa/</link>
+    <description>Recent content on فارسی</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>fa-ir</language>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>آیتم‌های آموزشی</title>
+      <link>http://localhost:1313/fa/fa/learning/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/fa/learning/</guid>
+      <description>این صفحه جایی است که من مواردی که یاد می‌گیرم را لیست می‌کنم.</description>
+    </item>
+    <item>
+      <title>اطلاعات کتاب</title>
+      <link>http://localhost:1313/fa/fa/book/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/fa/book/</guid>
+      <description>این صفحه جایی است که من در مورد کتاب مورد علاقه‌ام صحبت می‌کنم.</description>
+    </item>
+    <item>
+      <title>سه تار</title>
+      <link>http://localhost:1313/fa/fa/setar/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/fa/setar/</guid>
+      <description>این صفحه جایی است که من در مورد ساز سه تار صحبت می‌کنم.</description>
+    </item>
+    <item>
+      <title>فناوری‌هایی که من یاد می‌گیرم</title>
+      <link>http://localhost:1313/fa/fa/tech/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fa/fa/tech/</guid>
+      <description>این صفحه جایی است که من فناوری‌هایی که در حال یادگیری هستم را به اشتراک می‌گذارم.</description>
+    </item>
+  </channel>
+</rss>

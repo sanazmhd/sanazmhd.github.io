@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>English</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on English</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Information</title>
+      <link>http://localhost:1313/book/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/book/</guid>
+      <description>This is the page where I talk about my favorite book.</description>
+    </item>
+    <item>
+      <title>Learning Items</title>
+      <link>http://localhost:1313/learning/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/learning/</guid>
+      <description>This is the page where I will list the items I&amp;rsquo;m learning.</description>
+    </item>
+    <item>
+      <title>Setar</title>
+      <link>http://localhost:1313/setar/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/setar/</guid>
+      <description>This is the page where I discuss the Setar instrument.</description>
+    </item>
+    <item>
+      <title>Technology I&#39;m Learning</title>
+      <link>http://localhost:1313/tech/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/</guid>
+      <description>This is the page where I share the technology I&amp;rsquo;m currently learning.</description>
+    </item>
+    <item>
+      <title>Welcome to my new site!</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>This is my first post using Hugo with the PaperMod theme. Welcome to my site!</description>
+    </item>
+  </channel>
+</rss>
