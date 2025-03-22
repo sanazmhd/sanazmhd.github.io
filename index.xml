@@ -20,7 +20,8 @@
       <link>http://localhost:1313/learning/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/learning/</guid>
-      <description>This is the page where I will list the items I&amp;rsquo;m learning.</description>
+      <description>This is the page where I will list the items I&amp;rsquo;m learning.
+Flask, CI/CD, and Docker Learning </description>
     </item>
     <item>
       <title>Setar</title>
