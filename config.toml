@@ -7,8 +7,9 @@ defaultContentLanguageInSubdir = true
 publishDir = "docs"
 
 [params]
-  homeInfoParams = { Title = "Hi 👋", Content = "Welcome to my blog!" }
   ShowLangToggle = true
+  ShowReadingTime = true
+  profileMode = true
 
 [languages]
 
@@ -20,6 +21,21 @@ publishDir = "docs"
 
     [languages.en.params]
       homeInfoParams = { Title = "Hi 👋", Content = "Welcome to my blog!" }
+      profileMode = true
+
+      [languages.en.params.profileMode]
+        enabled = true
+        title = "Sanaz 👩‍💻"
+        subtitle = "Exploring code, books & Persian music"
+        imageUrl = "/images/sanaz.jpg"
+        imageTitle = "Sanaz's Profile Photo"
+        imageWidth = 120
+        imageHeight = 120
+        buttons = [
+          { name = "📚 Blog", url = "/blog/" },
+          { name = "🛠️ Projects", url = "/projects/" },
+          { name = "📖 Books", url = "/books/" }
+        ]
 
     [[languages.en.menu.main]]
       identifier = "tutorials"
@@ -54,6 +70,21 @@ publishDir = "docs"
 
     [languages.fa.params]
       homeInfoParams = { Title = "سلام 👋", Content = "به وبلاگ من خوش آمدید!" }
+      profileMode = true
+
+      [languages.fa.params.profileMode]
+        enabled = true
+        title = "ساناز 🎶"
+        subtitle = "یادگیری، کدنویسی، و موسیقی سنتی ایرانی"
+        imageUrl = "/images/sanaz.jpg"
+        imageTitle = "عکس پروفایل ساناز"
+        imageWidth = 120
+        imageHeight = 120
+        buttons = [
+          { name = "📚 وبلاگ", url = "/fa/blog/" },
+          { name = "🛠️ پروژه‌ها", url = "/fa/projects/" },
+          { name = "📖 کتاب‌ها", url = "/fa/books/" }
+        ]
 
     [[languages.fa.menu.main]]
       identifier = "tutorials"
