@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://sanazmhd.github.io/posts/my-first-post-copy/</loc>
-    <lastmod>2025-04-18T10:59:35+02:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/posts/</loc>
-    <lastmod>2025-04-18T10:59:35+02:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/</loc>
-    <lastmod>2025-04-18T10:59:35+02:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/posts/hello-world/</loc>
-    <lastmod>2025-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/categories/</loc>
-  </url><url>
-    <loc>https://sanazmhd.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://sanazmhd.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://sanazmhd.github.io/fa/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
