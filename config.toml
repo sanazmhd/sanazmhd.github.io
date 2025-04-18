@@ -1,0 +1,8 @@
+baseURL = "https://sanazmhd.github.io/"
+title = "Sanaz’s Blog"
+theme = "PaperMod"
+languageCode = "en-us"
+publishDir = "docs"
+
+[params]
+  homeInfoParams = { Title = "Hi 👋", Content = "Welcome to my blog!" }
