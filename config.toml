@@ -9,7 +9,6 @@ publishDir = "docs"
 [params]
   ShowLangToggle = true
   ShowReadingTime = true
-  profileMode = true
 
 [languages]
 
@@ -20,17 +19,16 @@ publishDir = "docs"
     title = "Sanaz’s Blog"
 
     [languages.en.params]
-      homeInfoParams = { Title = "Hi 👋", Content = "Welcome to my blog!" }
-      profileMode = true
-
+      #homeInfoParams = { Title = "Hi", Content = "Welcome to my blog I am Sanaz!" }
+      
       [languages.en.params.profileMode]
-        enabled = true
-        title = "Sanaz 👩‍💻"
+        enabled = false
+        title = "Sanaz"
         subtitle = "Exploring code, books & Persian music"
-        imageUrl = "/images/sanaz.jpg"
+        imageUrl = "/images/sanaznew.jpg"
         imageTitle = "Sanaz's Profile Photo"
-        imageWidth = 120
-        imageHeight = 120
+        imageWidth = 300
+        imageHeight = 300
         buttons = [
           { name = "📚 Blog", url = "/blog/" },
           { name = "🛠️ Projects", url = "/projects/" },
@@ -69,23 +67,8 @@ publishDir = "docs"
     languagedirection = "rtl"
 
     [languages.fa.params]
-      homeInfoParams = { Title = "سلام 👋", Content = "به وبلاگ من خوش آمدید!" }
-      profileMode = true
-
-      [languages.fa.params.profileMode]
-        enabled = true
-        title = "ساناز 🎶"
-        subtitle = "یادگیری، کدنویسی، و موسیقی سنتی ایرانی"
-        imageUrl = "/images/sanaz.jpg"
-        imageTitle = "عکس پروفایل ساناز"
-        imageWidth = 120
-        imageHeight = 120
-        buttons = [
-          { name = "📚 وبلاگ", url = "/fa/blog/" },
-          { name = "🛠️ پروژه‌ها", url = "/fa/projects/" },
-          { name = "📖 کتاب‌ها", url = "/fa/books/" }
-        ]
-
+      #homeInfoParams = { Title = "سلام ", Content = "به وبلاگ من خوش آمدید!" }
+      
     [[languages.fa.menu.main]]
       identifier = "tutorials"
       name = "آموزش‌ها"
@@ -109,4 +92,10 @@ publishDir = "docs"
       name = "کتاب‌ها"
       url = "/fa/books/"
       weight = 4
+
+# Add this part to enable HTML rendering in Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
