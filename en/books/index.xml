@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>📚 Book Reviews on Sanaz’s Blog</title>
+    <link>https://sanazmhd.github.io/en/books/</link>
+    <description>Recent content in 📚 Book Reviews on Sanaz’s Blog</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sanazmhd.github.io/en/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📚Suicide-shop</title>
+      <link>https://sanazmhd.github.io/en/books/suicide-shop/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://sanazmhd.github.io/en/books/suicide-shop/</guid>
+      <description>I read The Suicide Shop by Jean Teulé, and I really enjoyed it. At first, the idea of a shop that sells things for people who want to die sounds very dark and strange. But the book is actually funny in a very unusual way. It’s called dark comedy — where serious topics are shown in a funny or strange light.
+Even though the story starts very sad and negative, it slowly changes.</description>
+    </item>
+    <item>
+      <title>📚Inside the Gas</title>
+      <link>https://sanazmhd.github.io/en/books/inside-the-gas/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://sanazmhd.github.io/en/books/inside-the-gas/</guid>
+      <description>Shlomo Venezia’s story is one of survival and unimaginable hardship. Born into a poor Jewish-Italian community, his early life was relatively safe under the protection of the Italians, but everything changed when the Germans invaded and deported his family to Auschwitz. Tragically, his mother and sisters were killed upon arrival, likely in the gas chambers.
+Faced with the harsh reality of survival, Venezia agreed to become a Sonderkommando, a role that involved performing some of the most grotesque and dehumanizing tasks imaginable: removing the bodies from the gas chambers and burning them in the crematoria.</description>
+    </item>
+  </channel>
+</rss>
