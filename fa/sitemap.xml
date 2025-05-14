@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sanazmhd.github.io/fa/tutorials/web-development-learning/</loc>
+    <loc>http://localhost:1313/fa/tutorials/web-development-learning/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sanazmhd.github.io/fa/tags/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sanazmhd.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://sanazmhd.github.io/fa/tags/"
-                />
-  </url><url>
-    <loc>https://sanazmhd.github.io/fa/tags/tutorial/</loc>
+    <loc>http://localhost:1313/fa/tags/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/tags/tutorial/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/tags/tutorial/"
+                href="http://localhost:1313/fa/tags/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/fa/tutorials/</loc>
+    <loc>http://localhost:1313/fa/tags/tutorial/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/tutorials/"
+                href="http://localhost:1313/en/tags/tutorial/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/tutorials/"
+                href="http://localhost:1313/fa/tags/tutorial/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/fa/</loc>
+    <loc>http://localhost:1313/fa/tutorials/</loc>
+    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://localhost:1313/fa/tutorials/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fa/</loc>
     <lastmod>2025-04-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/"
+                href="http://localhost:1313/fa/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/fa/categories/</loc>
+    <loc>http://localhost:1313/fa/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/categories/"
+                href="http://localhost:1313/fa/categories/"
                 />
   </url>
 </urlset>
