@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sanazmhd.github.io/en/tags/projects/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanazmhd.github.io/en/projects/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanazmhd.github.io/en/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://sanazmhd.github.io/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sanazmhd.github.io/en/"
+                />
+  </url><url>
+    <loc>https://sanazmhd.github.io/en/projects/simple-flask-project/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sanazmhd.github.io/en/404/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,10 +35,6 @@
                 hreflang="en"
                 href="https://sanazmhd.github.io/en/404/"
                 />
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/books/inside-the-gas/</loc>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/books/suicide-shop/</loc>
   </url><url>
     <loc>https://sanazmhd.github.io/en/categories/</loc>
     <xhtml:link
@@ -30,8 +48,6 @@
                 href="https://sanazmhd.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/en/projects/</loc>
-  </url><url>
     <loc>https://sanazmhd.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,22 +58,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sanazmhd.github.io/en/tags/"
-                />
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/tutorials/</loc>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/books/</loc>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://sanazmhd.github.io/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sanazmhd.github.io/en/"
                 />
   </url>
 </urlset>

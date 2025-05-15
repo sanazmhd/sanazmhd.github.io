@@ -20,7 +20,7 @@ publishDir = "docs"
     title = "Sanaz’s Blog"
 
     [languages.en.params]
-      homeInfoParams = { Title = "Hi", Content = "Welcome to my blog I’m Sanaz, This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights." }
+      homeInfoParams = { Title = "Welcome to my blog", Content = " I’m Sanaz, This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights." }
   
 
     [[languages.en.menu.main]]

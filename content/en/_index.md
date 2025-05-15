@@ -1,7 +1,6 @@
 ---
-title: "Welcome"
+title: "Sanaz"
 description: "Homepage for my Hugo site"
 ---
 
-Welcome to my site!
 
