@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Books on Sanaz’s Blog</title>
-    <link>http://localhost:1313/en/books/</link>
+    <link>https://sanazmhd.github.io/en/books/</link>
     <description>Recent content in Books on Sanaz’s Blog</description>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sanazmhd.github.io/en/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/en/books/inside-the-gas/</link>
+      <link>https://sanazmhd.github.io/en/books/inside-the-gas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/books/inside-the-gas/</guid>
+      <guid>https://sanazmhd.github.io/en/books/inside-the-gas/</guid>
       <description>&lt;!DOCTYPE html&gt; 📚Inside the Gas | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 📚Inside the Gas April 14, 2025&amp;nbsp;·&amp;nbsp;2 min Shlomo Venezia’s story is one of survival and unimaginable hardship. Born into a poor Jewish-Italian community, his early life was relatively safe under the protection of the Italians, but everything changed when the Germans invaded and deported his family to Auschwitz. Tragically, his mother and sisters were killed upon arrival, likely in the gas chambers.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/books/suicide-shop/</link>
+      <link>https://sanazmhd.github.io/en/books/suicide-shop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/books/suicide-shop/</guid>
+      <guid>https://sanazmhd.github.io/en/books/suicide-shop/</guid>
       <description>&lt;!DOCTYPE html&gt; 📚Suicide-shop | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 📚Suicide-shop April 17, 2024&amp;nbsp;·&amp;nbsp;1 min I read The Suicide Shop by Jean Teulé, and I really enjoyed it. At first, the idea of a shop that sells things for people who want to die sounds very dark and strange. But the book is actually funny in a very unusual way. It’s called dark comedy — where serious topics are shown in a funny or strange light.</description>
     </item>
   </channel>
