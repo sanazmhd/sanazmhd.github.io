@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>🛠️Flask Project | Sanaz’s Blog</title>
-<meta name="keywords" content="projects">
+<meta name="keywords" content="">
 <meta name="description" content="Getting Started with Flask: A Super Simple Guide for Beginners
 If you&rsquo;re new to Python web development, Flask is the perfect place to start! It&rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.
 Let’s walk through a very simple Flask project, explain every line in detail:
@@ -77,7 +77,6 @@ Lightweight and easy to use Fast to build and test Great for learning web develo
     <meta property="article:section" content="projects">
     <meta property="article:published_time" content="2025-04-14T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-04-14T00:00:00+00:00">
-    <meta property="article:tag" content="Projects">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="🛠️Flask Project">
 <meta name="twitter:description" content="Getting Started with Flask: A Super Simple Guide for Beginners
@@ -116,7 +115,7 @@ Lightweight and easy to use Fast to build and test Great for learning web develo
   "name": "🛠️Flask Project",
   "description": "Getting Started with Flask: A Super Simple Guide for Beginners\nIf you\u0026rsquo;re new to Python web development, Flask is the perfect place to start! It\u0026rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.\nLet’s walk through a very simple Flask project, explain every line in detail:\n🔧 What is Flask?\nFlask is a small Python framework used to build websites and web applications.\nLightweight and easy to use Fast to build and test Great for learning web development 🛠️ The Simplest Flask App (Hello World)",
   "keywords": [
-    "projects"
+    
   ],
   "articleBody": "Getting Started with Flask: A Super Simple Guide for Beginners\nIf you’re new to Python web development, Flask is the perfect place to start! It’s lightweight, beginner-friendly, and lets you build web apps quickly.\nLet’s walk through a very simple Flask project, explain every line in detail:\n🔧 What is Flask?\nFlask is a small Python framework used to build websites and web applications.\nLightweight and easy to use Fast to build and test Great for learning web development 🛠️ The Simplest Flask App (Hello World)\nHere’s the full code for the simplest Flask app:\nfrom flask import Flask\napp = Flask(name) # 🌱 Create the Flask app\n@app.route(’/’) # 🏠 Define the homepage route def home(): return “👋 Hello, World! Welcome to Flask! 🚀”\nif name == ‘main’: app.run(debug=True) # 🔁 Run the development server\n🧠 Line-by-Line Explanation 1️⃣ from flask import Flask\nThis imports the Flask class from the flask library. You're saying: “Hey Python, I want to use Flask in this file.” 2️⃣ app = Flask(name)\nFlask(__name__) creates the web app. __name__ is a special Python variable. It helps Flask find your files. app is just a variable name — you can rename it to anything (like sanaz, website, etc.) as long as you use the same name consistently. 3️⃣ @app.route(’/’)\nThis is a route decorator. It means: “When someone visits / (the homepage), run the function below.” / is just the root of the website (like http://localhost:5000/). 4️⃣ def home():\nThis defines the function that runs when someone visits the homepage. You can name this function anything (like hello()), but home() is a clear choice. 5️⃣ return “👋 Hello, World! Welcome to Flask! 🚀”\nThis sends text back to the browser when someone visits the route. It’s what the user sees on their screen. 6️⃣ if name == ‘main’:\nThis checks if you're running this file directly (not importing it). If yes, then the app starts. 7️⃣ app.run(debug=True)\nThis starts Flask’s built-in development server. debug=True enables: 🔁 Auto-reload when code changes 📢 Helpful error messages in the browser 🌐 Why localhost:5000?\nWhen you run app.run(), Flask automatically:\nRuns on localhost → your own computer Uses port 5000 → a default number for Flask So you access your site at:\nhttp://localhost:5000/\n🛠 Can You Change It?\nYes! You can change host and port:\napp.run(host=‘0.0.0.0’, port=8000)\n0.0.0.0 lets others on your network access your app 8000 is a new port number Now your app would be at: http://localhost:8000/\nyou can run your app : 1-navigate to the folder where your app.py is located.\ncd path/to/your-project-folder\n📦 2. Make Sure Flask is Installed\nIf you haven’t installed Flask yet, run this:\npip install flask\n✅ You should see a message like Successfully installed Flask. 🏃 3. Run Your App\nNow run your app by typing:\npython app.py\nEnjoy :)\n",
   "wordCount" : "470",
@@ -317,7 +316,6 @@ Uses port 5000 → a default number for Flask
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://sanazmhd.github.io/en/tags/projects/">Projects</a></li>
     </ul>
   </footer>
 </article>

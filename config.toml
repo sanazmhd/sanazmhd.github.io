@@ -5,6 +5,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 publishDir = "docs"
+paginate = 10000
+
 
 
 [params]

@@ -2,7 +2,6 @@
 title: "🛠️Flask Project"
 date: 2025-04-14
 draft: false
-tags: ["projects"]
 showInHome: false
 ---
 Getting Started with Flask: A Super Simple Guide for Beginners

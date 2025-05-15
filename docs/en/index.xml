@@ -27,19 +27,5 @@ Lightweight and easy to use Fast to build and test Great for learning web develo
       <guid>https://sanazmhd.github.io/en/404/</guid>
       <description>&lt;!DOCTYPE html&gt; 404 Page not found | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 404 &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
     </item>
-    <item>
-      <title></title>
-      <link>https://sanazmhd.github.io/en/categories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/categories/</guid>
-      <description>&lt;!DOCTYPE html&gt; Categories | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books Categories &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://sanazmhd.github.io/en/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/tags/</guid>
-      <description>&lt;!DOCTYPE html&gt; Tags | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books Tags books 2 projects 1 tutorial 1 &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
-    </item>
   </channel>
 </rss>
