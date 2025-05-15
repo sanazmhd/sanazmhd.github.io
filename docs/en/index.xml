@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sanaz on Sanaz’s Blog</title>
-    <link>https://sanazmhd.github.io/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content in Sanaz on Sanaz’s Blog</description>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sanazmhd.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🛠️Flask Project</title>
-      <link>https://sanazmhd.github.io/en/projects/simple-flask-project/</link>
+      <link>http://localhost:1313/en/projects/simple-flask-project/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/projects/simple-flask-project/</guid>
+      <guid>http://localhost:1313/en/projects/simple-flask-project/</guid>
       <description>Getting Started with Flask: A Super Simple Guide for Beginners
 If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.
 Let’s walk through a very simple Flask project, explain every line in detail:
@@ -22,9 +22,9 @@ Lightweight and easy to use Fast to build and test Great for learning web develo
     </item>
     <item>
       <title></title>
-      <link>https://sanazmhd.github.io/en/404/</link>
+      <link>http://localhost:1313/en/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/404/</guid>
+      <guid>http://localhost:1313/en/404/</guid>
       <description>&lt;!DOCTYPE html&gt; 404 Page not found | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 404 &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
     </item>
   </channel>
