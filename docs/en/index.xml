@@ -1,49 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sanaz’s Blog</title>
-    <link>https://sanazmhd.github.io/en/</link>
-    <description>Recent content on Sanaz’s Blog</description>
+    <title>Welcome on Sanaz’s Blog</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Welcome on Sanaz’s Blog</description>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sanazmhd.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>WEB DEVELOPMENT LEARNING</title>
-      <link>https://sanazmhd.github.io/en/tutorials/firstpost/</link>
-      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/tutorials/firstpost/</guid>
-      <description>🌐 Web Development Learning! 🔍 Overview
-This tutorial will guide you step-by-step through building a full-stack web application using:
-React.js for the frontend (user interface) Flask for the backend (server and API) MongoDB for the database (data storage) Docker to run each part in its own container You’ll learn how to build, connect, and run each component separately — just like in a professional web development environment. 🏗️ What You Will Build</description>
+      <title></title>
+      <link>http://localhost:1313/en/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/404/</guid>
+      <description>&lt;!DOCTYPE html&gt; 404 Page not found | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 404 &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
     </item>
     <item>
-      <title>📚Inside the Gas</title>
-      <link>https://sanazmhd.github.io/en/books/inside-the-gas/</link>
-      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/books/inside-the-gas/</guid>
-      <description>Shlomo Venezia’s story is one of survival and unimaginable hardship. Born into a poor Jewish-Italian community, his early life was relatively safe under the protection of the Italians, but everything changed when the Germans invaded and deported his family to Auschwitz. Tragically, his mother and sisters were killed upon arrival, likely in the gas chambers.
-Faced with the harsh reality of survival, Venezia agreed to become a Sonderkommando, a role that involved performing some of the most grotesque and dehumanizing tasks imaginable: removing the bodies from the gas chambers and burning them in the crematoria.</description>
+      <title></title>
+      <link>http://localhost:1313/en/books/inside-the-gas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/books/inside-the-gas/</guid>
+      <description>&lt;!DOCTYPE html&gt; 📚Inside the Gas | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 📚Inside the Gas April 14, 2025&amp;nbsp;·&amp;nbsp;2 min Shlomo Venezia’s story is one of survival and unimaginable hardship. Born into a poor Jewish-Italian community, his early life was relatively safe under the protection of the Italians, but everything changed when the Germans invaded and deported his family to Auschwitz. Tragically, his mother and sisters were killed upon arrival, likely in the gas chambers.</description>
     </item>
     <item>
-      <title>🛠️Flask Project</title>
-      <link>https://sanazmhd.github.io/en/projects/simple-flask-project/</link>
-      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/projects/simple-flask-project/</guid>
-      <description>Getting Started with Flask: A Super Simple Guide for Beginners
-If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.
-Let’s walk through a very simple Flask project, explain every line in detail:
-🔧 What is Flask?
-Flask is a small Python framework used to build websites and web applications.
-Lightweight and easy to use Fast to build and test Great for learning web development 🛠️ The Simplest Flask App (Hello World)</description>
+      <title></title>
+      <link>http://localhost:1313/en/books/suicide-shop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/books/suicide-shop/</guid>
+      <description>&lt;!DOCTYPE html&gt; 📚Suicide-shop | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 📚Suicide-shop April 17, 2024&amp;nbsp;·&amp;nbsp;1 min I read The Suicide Shop by Jean Teulé, and I really enjoyed it. At first, the idea of a shop that sells things for people who want to die sounds very dark and strange. But the book is actually funny in a very unusual way. It’s called dark comedy — where serious topics are shown in a funny or strange light.</description>
     </item>
     <item>
-      <title>📚Suicide-shop</title>
-      <link>https://sanazmhd.github.io/en/books/suicide-shop/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://sanazmhd.github.io/en/books/suicide-shop/</guid>
-      <description>I read The Suicide Shop by Jean Teulé, and I really enjoyed it. At first, the idea of a shop that sells things for people who want to die sounds very dark and strange. But the book is actually funny in a very unusual way. It’s called dark comedy — where serious topics are shown in a funny or strange light.
-Even though the story starts very sad and negative, it slowly changes.</description>
+      <title></title>
+      <link>http://localhost:1313/en/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/categories/</guid>
+      <description>&lt;!DOCTYPE html&gt; Categories | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books Categories &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/</guid>
+      <description>&lt;!DOCTYPE html&gt; Projects | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books Projects 🛠️Flask Project Getting Started with Flask: A Super Simple Guide for Beginners If you’re new to Python web development, Flask is the perfect place to start! It’s lightweight, beginner-friendly, and lets you build web apps quickly. Let’s walk through a very simple Flask project, explain every line in detail: 🔧 What is Flask? Flask is a small Python framework used to build websites and web applications.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/</guid>
+      <description>&lt;!DOCTYPE html&gt; Tags | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books Tags books 2 projects 1 tutorial 1 &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tutorials/</guid>
+      <description>&lt;!DOCTYPE html&gt; Tutorials | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books Tutorials WEB DEVELOPMENT LEARNING 🌐 Web Development Learning! 🔍 Overview This tutorial will guide you step-by-step through building a full-stack web application using: React.js for the frontend (user interface) Flask for the backend (server and API) MongoDB for the database (data storage) Docker to run each part in its own container You’ll learn how to build, connect, and run each component separately — just like in a professional web development environment.</description>
     </item>
   </channel>
 </rss>

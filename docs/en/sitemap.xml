@@ -2,92 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sanazmhd.github.io/en/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/404/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/"
+                href="http://localhost:1313/fa/404.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/"
+                href="http://localhost:1313/en/404/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/en/tags/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/books/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/tags/"
+                href="http://localhost:1313/fa/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/tags/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/en/tags/tutorial/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/tags/tutorial/"
+                href="http://localhost:1313/fa/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/tags/tutorial/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>https://sanazmhd.github.io/en/tutorials/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/en/tutorials/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="https://sanazmhd.github.io/fa/tutorials/"
+                href="http://localhost:1313/fa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sanazmhd.github.io/en/tutorials/"
-                />
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/tutorials/firstpost/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/books/inside-the-gas/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/tags/books/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/books/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/tags/projects/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/projects/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/projects/simple-flask-project/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/books/suicide-shop/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sanazmhd.github.io/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://sanazmhd.github.io/fa/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sanazmhd.github.io/en/categories/"
+                href="http://localhost:1313/en/"
                 />
   </url>
 </urlset>
