@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tutorial on وبلاگ ساناز</title>
+    <link>https://sanazmhd.github.io/fa/tags/tutorial/</link>
+    <description>Recent content in Tutorial on وبلاگ ساناز</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>fa</language>
+    <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sanazmhd.github.io/fa/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> 🎯 آموزش ساخت یک پروژه کامل: از بک‌اند تا فرانت‌اند با Flask، React، MySQL و Docker</title>
+      <link>https://sanazmhd.github.io/fa/tutorials/web-development-learning/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://sanazmhd.github.io/fa/tutorials/web-development-learning/</guid>
+      <description>اگر تازه وارد دنیای برنامه‌نویسی شده‌اید و می‌خواهید بفهمید که فرانت‌اند، بک‌اند، دیتابیس و داکر دقیقاً چه هستند و چرا مهم‌اند، این بلاگ احتمالا براتون مفید باشه.
+🧩 فرانت‌اند (Frontend) چیست و چرا نیاز داریم؟ فرانت‌اند همان چیزی است که کاربر می‌بیند: ظاهر سایت یا اپلیکیشن.
+مثلاً وقتی به یک فرم در سایت می‌روید و اسمتان را وارد می‌کنید و روی دکمه‌ی &amp;ldquo;ارسال&amp;rdquo; کلیک می‌کنید — این بخش توسط فرانت‌اند ساخته شده.</description>
+    </item>
+  </channel>
+</rss>
