@@ -1,0 +1,91 @@
+baseURL = "https://sanazmhd.github.io/"
+title = "Sanaz’s Blog"
+theme = "PaperMod"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+publishDir = "docs"
+
+
+[params]
+  ShowLangToggle = true
+  ShowReadingTime = true
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "Sanaz’s Blog"
+
+    [languages.en.params]
+      homeInfoParams = { Title = "Hi", Content = "Welcome to my blog I’m Sanaz, This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights." }
+  
+
+    [[languages.en.menu.main]]
+      identifier = "tutorials"
+      name = "Tutorials"
+      url = "/tutorials/"
+      weight = 1
+
+    [[languages.en.menu.main]]
+      identifier = "projects"
+      name = "Projects"
+      url = "/projects/"
+      weight = 2
+
+    [[languages.en.menu.main]]
+      identifier = "books"
+      name = "Books"
+      url = "/books/"
+      weight = 4
+      
+    [[languages.en.menu.main]]
+      identifier = "blog"
+      name = "Blog"
+      url = "/blog/"
+      weight = 3
+
+    
+
+  [languages.fa]
+    languageName = "فارسی"
+    weight = 2
+    contentDir = "content/fa"
+    title = "وبلاگ ساناز"
+    languagedirection = "rtl"
+
+    [languages.fa.params]
+      #homeInfoParams = { Title = "سلام ", Content = "به وبلاگ من خوش آمدید!" }
+      
+    [[languages.fa.menu.main]]
+      identifier = "tutorials"
+      name = "آموزش‌ها"
+      url = "/fa/tutorials/"
+      weight = 1
+
+    [[languages.fa.menu.main]]
+      identifier = "projects"
+      name = "پروژه‌ها"
+      url = "/fa/projects/"
+      weight = 2
+
+    [[languages.fa.menu.main]]
+      identifier = "blog"
+      name = "وبلاگ"
+      url = "/fa/blog/"
+      weight = 3
+
+    [[languages.fa.menu.main]]
+      identifier = "books"
+      name = "کتاب‌ها"
+      url = "/fa/books/"
+      weight = 4
+
+# Add this part to enable HTML rendering in Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
