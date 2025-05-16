@@ -9,6 +9,16 @@
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sanazmhd.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>🛠️Building a Dockerized Flask &#43; React App</title>
+      <link>https://sanazmhd.github.io/en/projects/building-a-dockerized-flask-&#43;-react-app/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sanazmhd.github.io/en/projects/building-a-dockerized-flask-&#43;-react-app/</guid>
+      <description>📌 Project Goal
+In this project, I set out to build a simple full-stack web application using:
+Flask (Python) as the backend API React as the frontend Docker to containerize and run the whole app The goal was to serve the React frontend using Flask and make API calls from React to Flask—all within a Docker container. 🧱 Tech Stack
+Frontend: React Backend: Flask + Flask-CORS Containerization: Docker 🌐 What the App Does</description>
+    </item>
+    <item>
       <title>🛠️Flask Project</title>
       <link>https://sanazmhd.github.io/en/projects/simple-flask-project/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
