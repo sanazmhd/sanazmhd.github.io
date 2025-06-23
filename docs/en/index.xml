@@ -31,6 +31,29 @@ Flask is a small Python framework used to build websites and web applications.
 Lightweight and easy to use Fast to build and test Great for learning web development 🛠️ The Simplest Flask App (Hello World)</description>
     </item>
     <item>
+      <title>🛠️Flask Project</title>
+      <link>https://sanazmhd.github.io/en/tutorials/simple-flask-project/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sanazmhd.github.io/en/tutorials/simple-flask-project/</guid>
+      <description>Getting Started with Flask: A Super Simple Guide for Beginners
+If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.
+Let’s walk through a very simple Flask project, explain every line in detail:
+🔧 What is Flask?
+Flask is a small Python framework used to build websites and web applications.
+Lightweight and easy to use Fast to build and test Great for learning web development 🛠️ The Simplest Flask App (Hello World)</description>
+    </item>
+    <item>
+      <title>DHCP Tutorial: Understanding and Configuring DHCP</title>
+      <link>https://sanazmhd.github.io/en/projects/dhcp-tutorial/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://sanazmhd.github.io/en/projects/dhcp-tutorial/</guid>
+      <description>Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
+In this tutorial, we&amp;rsquo;ll cover:
+What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
+Benefits:
+Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2.</description>
+    </item>
+    <item>
       <title></title>
       <link>https://sanazmhd.github.io/en/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

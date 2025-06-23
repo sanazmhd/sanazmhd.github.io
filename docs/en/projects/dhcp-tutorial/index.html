@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>DHCP Tutorial: Understanding and Configuring DHCP | Sanaz’s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
+In this tutorial, we&rsquo;ll cover:
+What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
+Benefits:
+Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2.">
+<meta name="author" content="">
+<link rel="canonical" href="https://sanazmhd.github.io/en/projects/dhcp-tutorial/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://sanazmhd.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sanazmhd.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sanazmhd.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://sanazmhd.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://sanazmhd.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://sanazmhd.github.io/en/projects/dhcp-tutorial/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+
+<meta property="og:url" content="https://sanazmhd.github.io/en/projects/dhcp-tutorial/">
+  <meta property="og:site_name" content="Sanaz’s Blog">
+  <meta property="og:title" content="DHCP Tutorial: Understanding and Configuring DHCP">
+  <meta property="og:description" content="Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
+In this tutorial, we’ll cover:
+What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
+Benefits:
+Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-04-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-04-14T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DHCP Tutorial: Understanding and Configuring DHCP">
+<meta name="twitter:description" content="Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
+In this tutorial, we&rsquo;ll cover:
+What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
+Benefits:
+Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://sanazmhd.github.io/en/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "DHCP Tutorial: Understanding and Configuring DHCP",
+      "item": "https://sanazmhd.github.io/en/projects/dhcp-tutorial/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "DHCP Tutorial: Understanding and Configuring DHCP",
+  "name": "DHCP Tutorial: Understanding and Configuring DHCP",
+  "description": "Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.\nIn this tutorial, we\u0026rsquo;ll cover:\nWhat DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.\nBenefits:\nReduces manual IP configuration Enables IP address reusability Simplifies network administration 2.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.\nIn this tutorial, we’ll cover:\nWhat DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.\nBenefits:\nReduces manual IP configuration Enables IP address reusability Simplifies network administration 2. Key Terminology DHCP Server: Provides IP addresses. DHCP Client: Requests IP addresses. Scope: Range of IP addresses available for assignment. Lease Time: Time period a device can use an IP address. Options: Additional information like DNS and Default Gateway. 3. DHCP Process Here is the basic process:\nClient sends Discover Server replies with Offer Client sends Request Server sends Acknowledgment (Ack) 4. Setting Up a DHCP Server on linux (Example just for test and learn ) 🟩STEP 1: Install DHCP Server\nOpen a terminal on your Linux laptop and run: sudo apt update sudo apt install isc-dhcp-server\n🟩 STEP 2: Identify Your Network Interface\nCheck your available interfaces:\nip addr Look for the interface connected to your network, e.g., eth0 or wlan0. for example my inf0 is : IP: 10.187.54.102/8 Subnet Mask: 255.0.0.0 (Class A) Broadcast: 10.255.255.255\nThis means:\nI am connected to a Wi‑Fi network (wlo1), 10.187.54.102/8 DHCP server should operate within this range, e.g., 10.187.54.*. 🟩 STEP 3: Edit the DHCP Server Config\nEdit your DHCP settings:\nsudo vim /etc/dhcp/dhcpd.conf\nadd this subnet: subnet 10.187.0.0 netmask 255.0.0.0 { range 10.187.54.200 10.187.54.250; option routers 10.187.54.102; option subnet-mask 255.0.0.0; option broadcast-address 10.255.255.255; option domain-name-servers 8.8.8.8, 1.1.1.1; default-lease-time 600; max-lease-time 7200; } then\nEdit:\nsudo vim /etc/default/isc-dhcp-server\nSet:\nINTERFACESv4=“wlo1”\n🟩 STEP 4: Restart and Test\nRestart:\nsudo systemctl restart isc-dhcp-server sudo systemctl status isc-dhcp-server\nNEXT STEP: Test the DHCP Service\nTry connecting another device (or a virtual machine) to the same Wi‑Fi network:\nThe device should obtain an IP in the range you defined (10.187.54.200–250). Watch the leases:\nsudo tail -f /var/lib/dhcp/dhcpd.leases\nWatch traffic:\nsudo tail -f /var/log/syslog\n",
+  "wordCount" : "345",
+  "inLanguage": "en",
+  "datePublished": "2024-04-14T00:00:00Z",
+  "dateModified": "2024-04-14T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sanazmhd.github.io/en/projects/dhcp-tutorial/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sanaz’s Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sanazmhd.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://sanazmhd.github.io/en/" accesskey="h" title="Sanaz’s Blog (Alt + H)">Sanaz’s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://sanazmhd.github.io/fa/" title="فارسی"
+                            aria-label="فارسی">Fa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://sanazmhd.github.io/en/tutorials/" title="Tutorials">
+                    <span>Tutorials</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://sanazmhd.github.io/en/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://sanazmhd.github.io/en/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://sanazmhd.github.io/en/books/" title="Books">
+                    <span>Books</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      DHCP Tutorial: Understanding and Configuring DHCP
+    </h1>
+    <div class="post-meta"><span title='2024-04-14 00:00:00 +0000 UTC'>April 14, 2024</span>&nbsp;·&nbsp;2 min
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.</p>
+<p>In this tutorial, we&rsquo;ll cover:</p>
+<ul>
+<li>What DHCP is</li>
+<li>Key concepts</li>
+<li>A hands-on example</li>
+<li>Best practices</li>
+</ul>
+<hr>
+<h2 id="1-what-is-dhcp">1. What is DHCP?<a hidden class="anchor" aria-hidden="true" href="#1-what-is-dhcp">#</a></h2>
+<p>DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.<br>
+<strong>Benefits:</strong></p>
+<ul>
+<li>Reduces manual IP configuration</li>
+<li>Enables IP address reusability</li>
+<li>Simplifies network administration</li>
+</ul>
+<hr>
+<h2 id="2-key-terminology">2. Key Terminology<a hidden class="anchor" aria-hidden="true" href="#2-key-terminology">#</a></h2>
+<ul>
+<li><strong>DHCP Server:</strong> Provides IP addresses.</li>
+<li><strong>DHCP Client:</strong> Requests IP addresses.</li>
+<li><strong>Scope:</strong> Range of IP addresses available for assignment.</li>
+<li><strong>Lease Time:</strong> Time period a device can use an IP address.</li>
+<li><strong>Options:</strong> Additional information like DNS and Default Gateway.</li>
+</ul>
+<hr>
+<h2 id="3-dhcp-process">3. DHCP Process<a hidden class="anchor" aria-hidden="true" href="#3-dhcp-process">#</a></h2>
+<p>Here is the basic process:</p>
+<ol>
+<li>Client sends <strong>Discover</strong></li>
+<li>Server replies with <strong>Offer</strong></li>
+<li>Client sends <strong>Request</strong></li>
+<li>Server sends <strong>Acknowledgment (Ack)</strong></li>
+</ol>
+<h2 id="4-setting-up-a-dhcp-server-on-linux-example-just-for-test-and-learn-">4. Setting Up a DHCP Server on linux (Example just for test and learn )<a hidden class="anchor" aria-hidden="true" href="#4-setting-up-a-dhcp-server-on-linux-example-just-for-test-and-learn-">#</a></h2>
+<p>🟩STEP 1: Install DHCP Server</p>
+<p>Open a terminal on your Linux laptop and run:
+sudo apt update
+sudo apt install isc-dhcp-server</p>
+<p>🟩 STEP 2: Identify Your Network Interface</p>
+<p>Check your available interfaces:</p>
+<p>ip addr
+Look for the interface connected to your network, e.g., eth0 or wlan0.
+for example my inf0 is :
+IP: 10.187.54.102/8
+Subnet Mask: 255.0.0.0 (Class A)
+Broadcast: 10.255.255.255</p>
+<p>This means:</p>
+<pre><code>I am connected to a Wi‑Fi network (wlo1), 10.187.54.102/8
+
+DHCP server should operate within this range, e.g., 10.187.54.*.
+</code></pre>
+<p>🟩 STEP 3: Edit the DHCP Server Config</p>
+<p>Edit your DHCP settings:</p>
+<p>sudo vim /etc/dhcp/dhcpd.conf</p>
+<p>add this subnet:
+subnet 10.187.0.0 netmask 255.0.0.0 {
+range 10.187.54.200 10.187.54.250;
+option routers 10.187.54.102;
+option subnet-mask 255.0.0.0;
+option broadcast-address 10.255.255.255;
+option domain-name-servers 8.8.8.8, 1.1.1.1;
+default-lease-time 600;
+max-lease-time 7200;
+}
+then</p>
+<p>Edit:</p>
+<p>sudo vim /etc/default/isc-dhcp-server</p>
+<p>Set:</p>
+<p>INTERFACESv4=&ldquo;wlo1&rdquo;</p>
+<p>🟩 STEP 4: Restart and Test</p>
+<p>Restart:</p>
+<p>sudo systemctl restart isc-dhcp-server
+sudo systemctl status isc-dhcp-server</p>
+<p>NEXT STEP: Test the DHCP Service</p>
+<p>Try connecting another device (or a virtual machine) to the same Wi‑Fi network:</p>
+<pre><code>The device should obtain an IP in the range you defined (10.187.54.200–250).
+</code></pre>
+<p>Watch the leases:</p>
+<p>sudo tail -f /var/lib/dhcp/dhcpd.leases</p>
+<p>Watch traffic:</p>
+<p>sudo tail -f /var/log/syslog</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://sanazmhd.github.io/en/">Sanaz’s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
