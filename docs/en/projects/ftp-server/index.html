@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.129.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Sanaz’s Blog</title>
-
-<meta name="description" content="Homepage for my Hugo site">
+<title>Setting Up an FTP Server: What, Why, and How?(Linux/Windows) | Sanaz’s Blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="🤔 What is an FTP Server?
+An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
+“Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:
+You can upload large numbers of files efficiently. Multiple users can connect simultaneously and transfer files. Both uploading and downloading are supported. Where is FTP Used?
+FTP servers are widely used in:">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/en/">
+<link rel="canonical" href="http://localhost:1313/en/projects/ftp-server/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -19,9 +22,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/en/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/en/">
-<link rel="alternate" hreflang="fa" href="http://localhost:1313/fa/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/projects/ftp-server/">
 <noscript>
     <style>
         #theme-toggle,
@@ -61,7 +62,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -130,99 +131,145 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Welcome to my blog</h1>
-    </header>
-    <div class="entry-content">
-        I’m Sanaz, This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights.
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Setting Up an FTP Server: What, Why, and How?(Linux/Windows)
+    </h1>
+    <div class="post-meta"><span title='2024-04-14 00:00:00 +0000 UTC'>April 14, 2024</span>&nbsp;·&nbsp;3 min
+
 </div>
+  </header> 
+  <div class="post-content"><p>🤔 What is an FTP Server?</p>
+<p>An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:</p>
+<pre><code>“Isn’t this a basic thing?”
+</code></pre>
+<p>Yes, it seems simple, but it has powerful features:</p>
+<pre><code>You can upload large numbers of files efficiently.
 
-    </footer>
-</article>
+Multiple users can connect simultaneously and transfer files.
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">🛠️Building a Dockerized Flask &#43; React App
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>📌 Project Goal
-In this project, I set out to build a simple full-stack web application using:
-Flask (Python) as the backend API React as the frontend Docker to containerize and run the whole app The goal was to serve the React frontend using Flask and make API calls from React to Flask—all within a Docker container. 🧱 Tech Stack
-Frontend: React Backend: Flask &#43; Flask-CORS Containerization: Docker 🌐 What the App Does...</p>
+Both uploading and downloading are supported.
+</code></pre>
+<hr>
+<p>Where is FTP Used?</p>
+<p>FTP servers are widely used in:</p>
+<pre><code>Download servers that need to handle many files.
+
+Backup services to store backup files securely.
+
+Scanners that automatically upload scanned documents to a central location.
+
+Freelancers who need a space to upload their project files for clients or teammates.
+</code></pre>
+<p>So yes – it is a very practical tool.</p>
+<hr>
+<p>💻 Setting Up FTP Server on Windows</p>
+<p>For Windows, we use FileZilla Server. Let’s go step by step:</p>
+<pre><code>Download and install FileZilla Server on your Windows machine.
+
+Remember: FileZilla has a client version too, but here we focus on the server. You can use any client (FileZilla Client, WinSCP, or even Windows File Explorer) to connect later.
+</code></pre>
+<p><img alt="Download-File-Zilla" loading="lazy" src="/images/Download-File-Zilla.png">
+After installation:</p>
+<pre><code>    Open FileZilla Server.
+
+    Go to Server settings-configure-administartion and set an admin password.
+    ![Setting Up FTP Server on Windows](/images/configure.png)
+     ![Setting Up FTP Server on Windows](/images/administartion.png)
+    
+
+    In Listener settings, set the IP to 0.0.0.0. This allows connections from all IPv4 and IPv6 addresses.
+     ![Setting Up FTP Server on Windows](/images/port.png)
+
+Create a User:
+</code></pre>
+<p><img alt="users" loading="lazy" src="/images/user.png"></p>
+<pre><code>    Go to the Users section.
+
+    Click Add, enter a username.
+
+    Set a home directory path for this user.
+      ![Setting Up FTP Server-path](/images/path.png)
+
+    Enable authentication and set a password.
+
+    Ensure both Read and Write permissions are enabled so users can upload and download.
+</code></pre>
+<hr>
+<p>Testing the FTP Server</p>
+<pre><code>Use any FTP client. I use WinSCP.
+</code></pre>
+<p><img alt="Testing the FTP Server" loading="lazy" src="/images/winscp.png">
+<img alt="Testing the FTP Server-host" loading="lazy" src="/images/winscphost.png"></p>
+<pre><code>Create a New Session:
+
+    Protocol: FTP
+
+    Port: 21
+
+    Host: Your server IP
+
+    Username and Password as set above
+
+Click Save and connect.
+</code></pre>
+<p>🐧 Setting Up a Simple FTP Server on Linux</p>
+<p>Here is a step-by-step guide to set up an FTP server on Linux (Ubuntu):
+✅ 1. Update packages</p>
+<p>sudo apt update</p>
+<p>✅ 2. Install vsftpd (Very Secure FTP Daemon)</p>
+<p>sudo apt install vsftpd</p>
+<p>✅ 3. Start and enable the vsftpd service</p>
+<p>sudo systemctl start vsftpd
+sudo systemctl enable vsftpd</p>
+<p>✅ 4. Configure vsftpd</p>
+<p>Edit the configuration file:</p>
+<p>sudo nano /etc/vsftpd.conf</p>
+<p>Uncomment or add these lines to allow uploads and local user login:</p>
+<p>write_enable=YES
+local_enable=YES</p>
+<p>✅ 5. Restart the vsftpd service</p>
+<p>sudo systemctl restart vsftpd</p>
+<p>✅ 6. Test the FTP server</p>
+<p>You can test your FTP server using any FTP client like FileZilla or WinSCP with the following details:</p>
+<pre><code>Host: your server IP
+
+Username: your Linux username
+
+Password: your Linux user password
+
+Port: 21
+</code></pre>
+<p>✅ 7. Test using command line</p>
+<p>ftp localhost</p>
+<p>Then in your shell:</p>
+<p>echo &ldquo;This is my first FTP test file&rdquo; &gt; ftp_test.txt</p>
+<p>Inside the ftp&gt; prompt, upload the file:</p>
+<p>put ftp_test.txt</p>
+<p>Exit FTP:</p>
+<p>bye</p>
+<p>Download it back to test download functionality:</p>
+<p>ftp localhost
+get ftp_test.txt downloaded_test.txt
+bye</p>
+<p>Finally, verify the file content:</p>
+<p>cat downloaded_test.txt</p>
+<p>✔️ You should see:</p>
+<p>This is my first FTP test file</p>
+<p>📝 Now your FTP server is working successfully on Linux.</p>
+<p>Let me know if you want a secure FTP configuration guide (SSL/TLS) or automated user creation scripts for your DevOps and Linux notes this week.</p>
+
+
   </div>
-  <footer class="entry-footer"><span title='2025-04-14 00:00:00 +0000 UTC'>April 14, 2025</span>&nbsp;·&nbsp;3 min</footer>
-  <a class="entry-link" aria-label="post link to 🛠️Building a Dockerized Flask &#43; React App" href="http://localhost:1313/en/projects/building-a-dockerized-flask-&#43;-react-app/"></a>
-</article>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">🛠️Flask Project
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Getting Started with Flask: A Super Simple Guide for Beginners
-If you’re new to Python web development, Flask is the perfect place to start! It’s lightweight, beginner-friendly, and lets you build web apps quickly.
-Let’s walk through a very simple Flask project, explain every line in detail:
-🔧 What is Flask?
-Flask is a small Python framework used to build websites and web applications.
-Lightweight and easy to use Fast to build and test Great for learning web development 🛠️ The Simplest Flask App (Hello World)...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-04-14 00:00:00 +0000 UTC'>April 14, 2025</span>&nbsp;·&nbsp;3 min</footer>
-  <a class="entry-link" aria-label="post link to 🛠️Flask Project" href="http://localhost:1313/en/projects/simple-flask-project/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DHCP Tutorial: Understanding and Configuring DHCP
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
-In this tutorial, we’ll cover:
-What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
-Benefits:
-Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2....</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-04-14 00:00:00 +0000 UTC'>April 14, 2024</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to DHCP Tutorial: Understanding and Configuring DHCP" href="http://localhost:1313/en/projects/dhcp-tutorial/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">DHCP Tutorial: Understanding and Configuring DHCP
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
-In this tutorial, we’ll cover:
-What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
-Benefits:
-Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2....</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-04-14 00:00:00 +0000 UTC'>April 14, 2024</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to DHCP Tutorial: Understanding and Configuring DHCP" href="http://localhost:1313/en/projects/dhcp/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Setting Up an FTP Server: What, Why, and How?(Linux/Windows)
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>🤔 What is an FTP Server?
-An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
-“Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:
-You can upload large numbers of files efficiently. Multiple users can connect simultaneously and transfer files. Both uploading and downloading are supported. Where is FTP Used?
-FTP servers are widely used in:...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-04-14 00:00:00 +0000 UTC'>April 14, 2024</span>&nbsp;·&nbsp;3 min</footer>
-  <a class="entry-link" aria-label="post link to Setting Up an FTP Server: What, Why, and How?(Linux/Windows)" href="http://localhost:1313/en/projects/ftp-server/"></a>
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     

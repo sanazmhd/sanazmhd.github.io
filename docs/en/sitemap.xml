@@ -36,6 +36,9 @@
     <loc>http://localhost:1313/en/projects/dhcp/</loc>
     <lastmod>2024-04-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/en/projects/ftp-server/</loc>
+    <lastmod>2024-04-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/404/</loc>
     <xhtml:link
                 rel="alternate"

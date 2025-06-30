@@ -52,5 +52,16 @@ What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHC
 Benefits:
 Reduces manual IP configuration Enables IP address reusability Simplifies network administration 2.</description>
     </item>
+    <item>
+      <title>Setting Up an FTP Server: What, Why, and How?(Linux/Windows)</title>
+      <link>http://localhost:1313/en/projects/ftp-server/</link>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/ftp-server/</guid>
+      <description>🤔 What is an FTP Server?
+An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
+“Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:
+You can upload large numbers of files efficiently. Multiple users can connect simultaneously and transfer files. Both uploading and downloading are supported. Where is FTP Used?
+FTP servers are widely used in:</description>
+    </item>
   </channel>
 </rss>
