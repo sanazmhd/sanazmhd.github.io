@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sanaz on Sanaz’s Blog</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://sanazmhd.github.io/en/</link>
     <description>Recent content in Sanaz on Sanaz’s Blog</description>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sanazmhd.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🛠️Building a Dockerized Flask &#43; React App</title>
-      <link>http://localhost:1313/en/projects/building-a-dockerized-flask-&#43;-react-app/</link>
+      <link>https://sanazmhd.github.io/en/projects/building-a-dockerized-flask-&#43;-react-app/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/building-a-dockerized-flask-&#43;-react-app/</guid>
+      <guid>https://sanazmhd.github.io/en/projects/building-a-dockerized-flask-&#43;-react-app/</guid>
       <description>📌 Project Goal
 In this project, I set out to build a simple full-stack web application using:
 Flask (Python) as the backend API React as the frontend Docker to containerize and run the whole app The goal was to serve the React frontend using Flask and make API calls from React to Flask—all within a Docker container. 🧱 Tech Stack
@@ -20,9 +20,9 @@ Frontend: React Backend: Flask + Flask-CORS Containerization: Docker 🌐 What t
     </item>
     <item>
       <title>🛠️Flask Project</title>
-      <link>http://localhost:1313/en/projects/simple-flask-project/</link>
+      <link>https://sanazmhd.github.io/en/projects/simple-flask-project/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/simple-flask-project/</guid>
+      <guid>https://sanazmhd.github.io/en/projects/simple-flask-project/</guid>
       <description>Getting Started with Flask: A Super Simple Guide for Beginners
 If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.
 Let’s walk through a very simple Flask project, explain every line in detail:
@@ -32,9 +32,9 @@ Lightweight and easy to use Fast to build and test Great for learning web develo
     </item>
     <item>
       <title>🛠️Flask Project</title>
-      <link>http://localhost:1313/en/tutorials/simple-flask-project/</link>
+      <link>https://sanazmhd.github.io/en/tutorials/simple-flask-project/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/tutorials/simple-flask-project/</guid>
+      <guid>https://sanazmhd.github.io/en/tutorials/simple-flask-project/</guid>
       <description>Getting Started with Flask: A Super Simple Guide for Beginners
 If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.
 Let’s walk through a very simple Flask project, explain every line in detail:
@@ -44,9 +44,9 @@ Lightweight and easy to use Fast to build and test Great for learning web develo
     </item>
     <item>
       <title>DHCP Tutorial: Understanding and Configuring DHCP</title>
-      <link>http://localhost:1313/en/projects/dhcp-tutorial/</link>
+      <link>https://sanazmhd.github.io/en/projects/dhcp-tutorial/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/dhcp-tutorial/</guid>
+      <guid>https://sanazmhd.github.io/en/projects/dhcp-tutorial/</guid>
       <description>Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
 In this tutorial, we&amp;rsquo;ll cover:
 What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
@@ -55,9 +55,9 @@ Reduces manual IP configuration Enables IP address reusability Simplifies networ
     </item>
     <item>
       <title>DHCP Tutorial: Understanding and Configuring DHCP</title>
-      <link>http://localhost:1313/en/projects/dhcp/</link>
+      <link>https://sanazmhd.github.io/en/projects/dhcp/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/dhcp/</guid>
+      <guid>https://sanazmhd.github.io/en/projects/dhcp/</guid>
       <description>Introduction Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.
 In this tutorial, we&amp;rsquo;ll cover:
 What DHCP is Key concepts A hands-on example Best practices 1. What is DHCP? DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.
@@ -66,9 +66,9 @@ Reduces manual IP configuration Enables IP address reusability Simplifies networ
     </item>
     <item>
       <title>Setting Up an FTP Server: What, Why, and How?(Linux/Windows)</title>
-      <link>http://localhost:1313/en/projects/ftp-server/</link>
+      <link>https://sanazmhd.github.io/en/projects/ftp-server/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/ftp-server/</guid>
+      <guid>https://sanazmhd.github.io/en/projects/ftp-server/</guid>
       <description>🤔 What is an FTP Server?
 An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
 “Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:
@@ -77,9 +77,9 @@ FTP servers are widely used in:</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/404/</link>
+      <link>https://sanazmhd.github.io/en/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/404/</guid>
+      <guid>https://sanazmhd.github.io/en/404/</guid>
       <description>&lt;!DOCTYPE html&gt; 404 Page not found | Sanaz’s Blog Sanaz’s Blog | Fa Tutorials Projects Blog Books 404 &amp;copy; 2025 Sanaz’s Blog · Powered by Hugo &amp; PaperMod </description>
     </item>
   </channel>
