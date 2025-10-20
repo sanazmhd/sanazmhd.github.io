@@ -2,13 +2,15 @@ baseURL = "https://sanazmhd.github.io/"
 title = "Sanaz’s Blog"
 theme = "PaperMod"
 languageCode = "en-us"
+
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+
+# Publish to /docs for GitHub Pages
+publishDir = "docs"
+
 [pagination]
 pagerSize = 10000
-
-
-
 
 [params]
   ShowLangToggle = true
@@ -23,8 +25,7 @@ pagerSize = 10000
     title = "Sanaz’s Blog"
 
     [languages.en.params]
-      homeInfoParams = { Title = "Welcome to my blog", Content = " I’m Sanaz, This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights." }
-  
+      homeInfoParams = { Title = "Welcome to my blog", Content = "I’m Sanaz. This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights." }
 
     [[languages.en.menu.main]]
       identifier = "tutorials"
@@ -39,18 +40,16 @@ pagerSize = 10000
       weight = 2
 
     [[languages.en.menu.main]]
-      identifier = "books"
-      name = "Books"
-      url = "/books/"
-      weight = 4
-      
-    [[languages.en.menu.main]]
       identifier = "blog"
       name = "Blog"
       url = "/blog/"
       weight = 3
 
-    
+    [[languages.en.menu.main]]
+      identifier = "books"
+      name = "Books"
+      url = "/books/"
+      weight = 4
 
   [languages.fa]
     languageName = "فارسی"
@@ -59,9 +58,9 @@ pagerSize = 10000
     title = "وبلاگ ساناز"
     languagedirection = "rtl"
 
-    [languages.fa.params]
-      #homeInfoParams = { Title = "سلام ", Content = "به وبلاگ من خوش آمدید!" }
-      
+    # [languages.fa.params]
+    # homeInfoParams = { Title = "سلام", Content = "به وبلاگ من خوش آمدید!" }
+
     [[languages.fa.menu.main]]
       identifier = "tutorials"
       name = "آموزش‌ها"
@@ -86,7 +85,7 @@ pagerSize = 10000
       url = "/fa/books/"
       weight = 4
 
-# Add this part to enable HTML rendering in Markdown
+# Allow raw HTML in Markdown (for embeds, etc.)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
