@@ -30,7 +30,7 @@ ignoreLogs = ['warning-partial-superfluous-prefix']
 
   [[params.socialIcons]]
   name = "Instagram"
-  url  = "https://www.instagram.com/sanaazmhd"  # ← replace with your Instagram URL
+  url  = "https://www.instagram.com/snazmhd"  # ← replace with your Instagram URL
 
   [[params.socialIcons]]
   name = "Google Scholar"
