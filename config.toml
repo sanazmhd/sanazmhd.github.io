@@ -12,10 +12,37 @@ publishDir = "docs"
 [pagination]
 pagerSize = 10000
 
+# Silence theme warning
+ignoreLogs = ['warning-partial-superfluous-prefix']
+
 [params]
   ShowLangToggle = true
   ShowReadingTime = true
 
+  # --- Social Icons ---
+  [[params.socialIcons]]
+  name = "GitHub"
+  url  = "https://github.com/sanazmhd"
+
+  [[params.socialIcons]]
+  name = "LinkedIn"
+  url  = "https://www.linkedin.com/in/sanaz-mhd/"  # ← replace with your LinkedIn URL
+
+  [[params.socialIcons]]
+  name = "Instagram"
+  url  = "https://www.instagram.com/saanazm"  # ← replace with your Instagram URL
+
+  [[params.socialIcons]]
+  name = "Google Scholar"
+  url  = "https://scholar.google.com/citations?user=YOUR_ID"  # ← replace with your Scholar page
+
+  [[params.socialIcons]]
+  name = "CV"
+  url  = "/files/cv.pdf"   # ← put your CV at static/files/cv.pdf
+
+# -----------------------------
+# Languages
+# -----------------------------
 [languages]
 
   [languages.en]
@@ -25,31 +52,14 @@ pagerSize = 10000
     title = "Sanaz’s Blog"
 
     [languages.en.params]
-      homeInfoParams = { Title = "Welcome to my blog", Content = "I’m Sanaz. This blog is my personal space to share interesting things with you — from tutorials and books to music and tech insights." }
+      homeInfoParams = { Title = "Welcome to my blog", Content = "I’m Sanaz. This blog is my personal space to share interesting things with you — from tutorials, books, and music to tech and language learning." }
 
+    # --- Top Navigation ---
     [[languages.en.menu.main]]
-      identifier = "tutorials"
-      name = "Tutorials"
-      url = "/tutorials/"
+      identifier = "learning"
+      name = "Learning"
+      url = "/learning/"
       weight = 1
-
-    [[languages.en.menu.main]]
-      identifier = "projects"
-      name = "Projects"
-      url = "/projects/"
-      weight = 2
-
-    [[languages.en.menu.main]]
-      identifier = "blog"
-      name = "Blog"
-      url = "/blog/"
-      weight = 3
-
-    [[languages.en.menu.main]]
-      identifier = "books"
-      name = "Books"
-      url = "/books/"
-      weight = 4
 
   [languages.fa]
     languageName = "فارسی"
@@ -58,34 +68,13 @@ pagerSize = 10000
     title = "وبلاگ ساناز"
     languagedirection = "rtl"
 
-    # [languages.fa.params]
-    # homeInfoParams = { Title = "سلام", Content = "به وبلاگ من خوش آمدید!" }
-
     [[languages.fa.menu.main]]
-      identifier = "tutorials"
-      name = "آموزش‌ها"
-      url = "/fa/tutorials/"
+      identifier = "learning"
+      name = "یادگیری"
+      url = "/fa/learning/"
       weight = 1
 
-    [[languages.fa.menu.main]]
-      identifier = "projects"
-      name = "پروژه‌ها"
-      url = "/fa/projects/"
-      weight = 2
-
-    [[languages.fa.menu.main]]
-      identifier = "blog"
-      name = "وبلاگ"
-      url = "/fa/blog/"
-      weight = 3
-
-    [[languages.fa.menu.main]]
-      identifier = "books"
-      name = "کتاب‌ها"
-      url = "/fa/books/"
-      weight = 4
-
-# Allow raw HTML in Markdown (for embeds, etc.)
+# Allow raw HTML in Markdown (for dropdown menus, embeds, etc.)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
