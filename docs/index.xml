@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sanaz on Sanaz’s Blog</title><link>https://sanazmhd.github.io/</link><description>Recent content in Sanaz on Sanaz’s Blog</description><generator>Hugo -- 0.150.0</generator><language>en</language><lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sanazmhd.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️Building a Dockerized Flask + React App</title><link>https://sanazmhd.github.io/projects/building-a-dockerized-flask-+-react-app/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/projects/building-a-dockerized-flask-+-react-app/</guid><description>&lt;p&gt;📌 Project Goal&lt;/p&gt;
+&lt;p&gt;In this project, I set out to build a simple full-stack web application using:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Flask (Python) as the backend API
+React as the frontend
+Docker to containerize and run the whole app
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The goal was to serve the React frontend using Flask and make API calls from React to Flask—all within a Docker container.
+🧱 Tech Stack&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Frontend: React
+Backend: Flask + Flask-CORS
+Containerization: Docker
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;🌐 What the App Does&lt;/p&gt;</description></item><item><title>🛠️Flask Project</title><link>https://sanazmhd.github.io/projects/simple-flask-project/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/projects/simple-flask-project/</guid><description>&lt;p&gt;Getting Started with Flask: A Super Simple Guide for Beginners&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.&lt;/p&gt;
+&lt;p&gt;Let’s walk through a very simple Flask project, explain every line in detail:&lt;/p&gt;
+&lt;p&gt;🔧 What is Flask?&lt;/p&gt;
+&lt;p&gt;Flask is a small Python framework used to build websites and web applications.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Lightweight and easy to use
+Fast to build and test
+Great for learning web development
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;🛠️ The Simplest Flask App (Hello World)&lt;/p&gt;</description></item><item><title>🛠️Flask Project</title><link>https://sanazmhd.github.io/tutorials/simple-flask-project/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/tutorials/simple-flask-project/</guid><description>&lt;p&gt;Getting Started with Flask: A Super Simple Guide for Beginners&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.&lt;/p&gt;
+&lt;p&gt;Let’s walk through a very simple Flask project, explain every line in detail:&lt;/p&gt;
+&lt;p&gt;🔧 What is Flask?&lt;/p&gt;
+&lt;p&gt;Flask is a small Python framework used to build websites and web applications.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Lightweight and easy to use
+Fast to build and test
+Great for learning web development
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;🛠️ The Simplest Flask App (Hello World)&lt;/p&gt;</description></item><item><title>DHCP Tutorial: Understanding and Configuring DHCP</title><link>https://sanazmhd.github.io/projects/dhcp-tutorial/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/projects/dhcp-tutorial/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.&lt;/p&gt;
+&lt;p&gt;In this tutorial, we&amp;rsquo;ll cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What DHCP is&lt;/li&gt;
+&lt;li&gt;Key concepts&lt;/li&gt;
+&lt;li&gt;A hands-on example&lt;/li&gt;
+&lt;li&gt;Best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-what-is-dhcp"&gt;1. What is DHCP?&lt;/h2&gt;
+&lt;p&gt;DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.&lt;br&gt;
+&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reduces manual IP configuration&lt;/li&gt;
+&lt;li&gt;Enables IP address reusability&lt;/li&gt;
+&lt;li&gt;Simplifies network administration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="2-key-terminology"&gt;2. Key Terminology&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DHCP Server:&lt;/strong&gt; Provides IP addresses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DHCP Client:&lt;/strong&gt; Requests IP addresses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scope:&lt;/strong&gt; Range of IP addresses available for assignment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lease Time:&lt;/strong&gt; Time period a device can use an IP address.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Options:&lt;/strong&gt; Additional information like DNS and Default Gateway.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="3-dhcp-process"&gt;3. DHCP Process&lt;/h2&gt;
+&lt;p&gt;Here is the basic process:&lt;/p&gt;</description></item><item><title>DHCP Tutorial: Understanding and Configuring DHCP</title><link>https://sanazmhd.github.io/projects/dhcp/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/projects/dhcp/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Dynamic Host Configuration Protocol (DHCP) is a network management protocol that automates the assignment of IP addresses and other network configuration parameters to devices, allowing them to communicate on an IP network.&lt;/p&gt;
+&lt;p&gt;In this tutorial, we&amp;rsquo;ll cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What DHCP is&lt;/li&gt;
+&lt;li&gt;Key concepts&lt;/li&gt;
+&lt;li&gt;A hands-on example&lt;/li&gt;
+&lt;li&gt;Best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="1-what-is-dhcp"&gt;1. What is DHCP?&lt;/h2&gt;
+&lt;p&gt;DHCP (Dynamic Host Configuration Protocol) allows automatic assignment of IP addresses to devices.&lt;br&gt;
+&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reduces manual IP configuration&lt;/li&gt;
+&lt;li&gt;Enables IP address reusability&lt;/li&gt;
+&lt;li&gt;Simplifies network administration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="2-key-terminology"&gt;2. Key Terminology&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DHCP Server:&lt;/strong&gt; Provides IP addresses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DHCP Client:&lt;/strong&gt; Requests IP addresses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scope:&lt;/strong&gt; Range of IP addresses available for assignment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lease Time:&lt;/strong&gt; Time period a device can use an IP address.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Options:&lt;/strong&gt; Additional information like DNS and Default Gateway.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="3-dhcp-process"&gt;3. DHCP Process&lt;/h2&gt;
+&lt;p&gt;Here is the basic process:&lt;/p&gt;</description></item><item><title>Setting Up an FTP Server: What, Why, and How?(Linux/Windows)</title><link>https://sanazmhd.github.io/projects/ftp-server/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/projects/ftp-server/</guid><description>&lt;p&gt;🤔 What is an FTP Server?&lt;/p&gt;
+&lt;p&gt;An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“Isn’t this a basic thing?”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Yes, it seems simple, but it has powerful features:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;You can upload large numbers of files efficiently.
+Multiple users can connect simultaneously and transfer files.
+Both uploading and downloading are supported.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;Where is FTP Used?&lt;/p&gt;
+&lt;p&gt;FTP servers are widely used in:&lt;/p&gt;</description></item><item><title/><link>https://sanazmhd.github.io/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/404/</guid><description>&lt;!DOCTYPE html&gt;
+&lt;html lang="en" dir="auto"&gt;
+&lt;head&gt;&lt;meta charset="utf-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+&lt;meta name="robots" content="index, follow"&gt;
+&lt;title&gt;404 Page not found | Sanaz’s Blog&lt;/title&gt;
+&lt;meta name="keywords" content=""&gt;
+&lt;meta name="description" content=""&gt;
+&lt;meta name="author" content=""&gt;
+&lt;link rel="canonical" href="https://sanazmhd.github.io/en/404.html"&gt;
+&lt;link crossorigin="anonymous" href="https://sanazmhd.github.io/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&amp;#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style"&gt;
+&lt;link rel="icon" href="https://sanazmhd.github.io/favicon.ico"&gt;
+&lt;link rel="icon" type="image/png" sizes="16x16" href="https://sanazmhd.github.io/favicon-16x16.png"&gt;
+&lt;link rel="icon" type="image/png" sizes="32x32" href="https://sanazmhd.github.io/favicon-32x32.png"&gt;
+&lt;link rel="apple-touch-icon" href="https://sanazmhd.github.io/apple-touch-icon.png"&gt;
+&lt;link rel="mask-icon" href="https://sanazmhd.github.io/safari-pinned-tab.svg"&gt;
+&lt;meta name="theme-color" content="#2e2e33"&gt;
+&lt;meta name="msapplication-TileColor" content="#2e2e33"&gt;
+&lt;link rel="alternate" hreflang="en" href="https://sanazmhd.github.io/en/404.html"&gt;
+&lt;link rel="alternate" hreflang="fa" href="https://sanazmhd.github.io/fa/404.html"&gt;
+&lt;noscript&gt;
+&lt;style&gt;
+#theme-toggle,
+.top-link {
+display: none;
+}
+&lt;/style&gt;
+&lt;style&gt;
+@media (prefers-color-scheme: dark) {
+:root {
+--theme: rgb(29, 30, 32);
+--entry: rgb(46, 46, 51);
+--primary: rgb(218, 218, 219);
+--secondary: rgb(155, 156, 157);
+--tertiary: rgb(65, 66, 68);
+--content: rgb(196, 196, 197);
+--code-block-bg: rgb(46, 46, 51);
+--code-bg: rgb(55, 56, 62);
+--border: rgb(51, 51, 51);
+}
+.list {
+background: var(--theme);
+}
+.list:not(.dark)::-webkit-scrollbar-track {
+background: 0 0;
+}
+.list:not(.dark)::-webkit-scrollbar-thumb {
+border-color: var(--theme);
+}
+}
+&lt;/style&gt;
+&lt;/noscript&gt;
+&lt;meta property="og:url" content="https://sanazmhd.github.io/en/404.html"&gt;
+&lt;meta property="og:site_name" content="Sanaz’s Blog"&gt;
+&lt;meta property="og:title" content="404 Page not found"&gt;
+&lt;meta property="og:locale" content="en"&gt;
+&lt;meta property="og:type" content="website"&gt;
+&lt;meta name="twitter:card" content="summary"&gt;
+&lt;meta name="twitter:title" content="404 Page not found"&gt;
+&lt;meta name="twitter:description" content=""&gt;
+&lt;/head&gt;
+&lt;body class="list" id="top"&gt;
+&lt;script&gt;
+if (localStorage.getItem("pref-theme") === "dark") {
+document.body.classList.add('dark');
+} else if (localStorage.getItem("pref-theme") === "light") {
+document.body.classList.remove('dark')
+} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+document.body.classList.add('dark');
+}
+&lt;/script&gt;
+&lt;header class="header"&gt;
+&lt;nav class="nav"&gt;
+&lt;div class="logo"&gt;
+&lt;a href="https://sanazmhd.github.io/en/" accesskey="h" title="Sanaz’s Blog (Alt + H)"&gt;Sanaz’s Blog&lt;/a&gt;
+&lt;div class="logo-switches"&gt;
+&lt;button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme"&gt;
+&lt;svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+stroke-linejoin="round"&gt;
+&lt;path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"&gt;&lt;/path&gt;
+&lt;/svg&gt;
+&lt;svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+stroke-linejoin="round"&gt;
+&lt;circle cx="12" cy="12" r="5"&gt;&lt;/circle&gt;
+&lt;line x1="12" y1="1" x2="12" y2="3"&gt;&lt;/line&gt;
+&lt;line x1="12" y1="21" x2="12" y2="23"&gt;&lt;/line&gt;
+&lt;line x1="4.22" y1="4.22" x2="5.64" y2="5.64"&gt;&lt;/line&gt;
+&lt;line x1="18.36" y1="18.36" x2="19.78" y2="19.78"&gt;&lt;/line&gt;
+&lt;line x1="1" y1="12" x2="3" y2="12"&gt;&lt;/line&gt;
+&lt;line x1="21" y1="12" x2="23" y2="12"&gt;&lt;/line&gt;
+&lt;line x1="4.22" y1="19.78" x2="5.64" y2="18.36"&gt;&lt;/line&gt;
+&lt;line x1="18.36" y1="5.64" x2="19.78" y2="4.22"&gt;&lt;/line&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;ul class="lang-switch"&gt;&lt;li&gt;|&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://sanazmhd.github.io/fa/" title="فارسی"
+aria-label="فارسی"&gt;Fa&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul id="menu"&gt;
+&lt;li&gt;
+&lt;a href="https://sanazmhd.github.io/en/tutorials/" title="Tutorials"&gt;
+&lt;span&gt;Tutorials&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://sanazmhd.github.io/en/projects/" title="Projects"&gt;
+&lt;span&gt;Projects&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://sanazmhd.github.io/en/blog/" title="Blog"&gt;
+&lt;span&gt;Blog&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://sanazmhd.github.io/en/books/" title="Books"&gt;
+&lt;span&gt;Books&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main class="main"&gt;
+&lt;div class="not-found"&gt;404&lt;/div&gt;
+&lt;/main&gt;
+&lt;footer class="footer"&gt;
+&lt;span&gt;&amp;copy; 2025 &lt;a href="https://sanazmhd.github.io/en/"&gt;Sanaz’s Blog&lt;/a&gt;&lt;/span&gt; ·
+&lt;span&gt;
+Powered by
+&lt;a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank"&gt;Hugo&lt;/a&gt; &amp;
+&lt;a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank"&gt;PaperMod&lt;/a&gt;
+&lt;/span&gt;
+&lt;/footer&gt;
+&lt;a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g"&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor"&gt;
+&lt;path d="M12 6H0l6-6z" /&gt;
+&lt;/svg&gt;
+&lt;/a&gt;
+&lt;script&gt;
+let menu = document.getElementById('menu')
+if (menu) {
+menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+menu.onscroll = function () {
+localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+}
+}
+document.querySelectorAll('a[href^="#"]').forEach(anchor =&gt; {
+anchor.addEventListener("click", function (e) {
+e.preventDefault();
+var id = this.getAttribute("href").substr(1);
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+behavior: "smooth"
+});
+} else {
+document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+}
+if (id === "top") {
+history.replaceState(null, null, " ");
+} else {
+history.pushState(null, null, `#${id}`);
+}
+});
+});
+&lt;/script&gt;
+&lt;script&gt;
+var mybutton = document.getElementById("top-link");
+window.onscroll = function () {
+if (document.body.scrollTop &gt; 800 || document.documentElement.scrollTop &gt; 800) {
+mybutton.style.visibility = "visible";
+mybutton.style.opacity = "1";
+} else {
+mybutton.style.visibility = "hidden";
+mybutton.style.opacity = "0";
+}
+};
+&lt;/script&gt;
+&lt;script&gt;
+document.getElementById("theme-toggle").addEventListener("click", () =&gt; {
+if (document.body.className.includes("dark")) {
+document.body.classList.remove('dark');
+localStorage.setItem("pref-theme", 'light');
+} else {
+document.body.classList.add('dark');
+localStorage.setItem("pref-theme", 'dark');
+}
+})
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description></item></channel></rss>

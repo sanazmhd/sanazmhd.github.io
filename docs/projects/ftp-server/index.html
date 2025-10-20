@@ -1,0 +1,100 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Setting Up an FTP Server: What, Why, and How?(Linux/Windows) | Sanaz’s Blog</title><meta name=keywords content><meta name=description content="🤔 What is an FTP Server?
+An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
+“Isn’t this a basic thing?”
+
+Yes, it seems simple, but it has powerful features:
+You can upload large numbers of files efficiently.
+
+Multiple users can connect simultaneously and transfer files.
+
+Both uploading and downloading are supported.
+
+
+Where is FTP Used?
+FTP servers are widely used in:"><meta name=author content><link rel=canonical href=https://sanazmhd.github.io/projects/ftp-server/><link crossorigin=anonymous href=/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF+13Dyqob6ASlTrTye8=" rel="preload stylesheet" as=style><link rel=icon href=https://sanazmhd.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://sanazmhd.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://sanazmhd.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://sanazmhd.github.io/apple-touch-icon.png><link rel=mask-icon href=https://sanazmhd.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://sanazmhd.github.io/projects/ftp-server/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:url" content="https://sanazmhd.github.io/projects/ftp-server/"><meta property="og:site_name" content="Sanaz’s Blog"><meta property="og:title" content="Setting Up an FTP Server: What, Why, and How?(Linux/Windows)"><meta property="og:description" content="🤔 What is an FTP Server?
+An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
+“Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:
+You can upload large numbers of files efficiently. Multiple users can connect simultaneously and transfer files. Both uploading and downloading are supported. Where is FTP Used?
+FTP servers are widely used in:"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="projects"><meta property="article:published_time" content="2024-04-14T00:00:00+00:00"><meta property="article:modified_time" content="2024-04-14T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Setting Up an FTP Server: What, Why, and How?(Linux/Windows)"><meta name=twitter:description content="🤔 What is an FTP Server?
+An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:
+“Isn’t this a basic thing?”
+
+Yes, it seems simple, but it has powerful features:
+You can upload large numbers of files efficiently.
+
+Multiple users can connect simultaneously and transfer files.
+
+Both uploading and downloading are supported.
+
+
+Where is FTP Used?
+FTP servers are widely used in:"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Projects","item":"https://sanazmhd.github.io/projects/"},{"@type":"ListItem","position":2,"name":"Setting Up an FTP Server: What, Why, and How?(Linux/Windows)","item":"https://sanazmhd.github.io/projects/ftp-server/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Setting Up an FTP Server: What, Why, and How?(Linux/Windows)","name":"Setting Up an FTP Server: What, Why, and How?(Linux\/Windows)","description":"🤔 What is an FTP Server?\nAn FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:\n“Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:\nYou can upload large numbers of files efficiently. Multiple users can connect simultaneously and transfer files. Both uploading and downloading are supported. Where is FTP Used?\nFTP servers are widely used in:\n","keywords":[],"articleBody":"🤔 What is an FTP Server?\nAn FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:\n“Isn’t this a basic thing?” Yes, it seems simple, but it has powerful features:\nYou can upload large numbers of files efficiently. Multiple users can connect simultaneously and transfer files. Both uploading and downloading are supported. Where is FTP Used?\nFTP servers are widely used in:\nDownload servers that need to handle many files. Backup services to store backup files securely. Scanners that automatically upload scanned documents to a central location. Freelancers who need a space to upload their project files for clients or teammates. So yes – it is a very practical tool.\n💻 Setting Up FTP Server on Windows\nFor Windows, we use FileZilla Server. Let’s go step by step:\nDownload and install FileZilla Server on your Windows machine. Remember: FileZilla has a client version too, but here we focus on the server. You can use any client (FileZilla Client, WinSCP, or even Windows File Explorer) to connect later. After installation:\nOpen FileZilla Server. Go to Server settings-configure-administartion and set an admin password. ![Setting Up FTP Server on Windows](/images/configure.png) ![Setting Up FTP Server on Windows](/images/administartion.png) In Listener settings, set the IP to 0.0.0.0. This allows connections from all IPv4 and IPv6 addresses. ![Setting Up FTP Server on Windows](/images/port.png) Create a User: Go to the Users section. Click Add, enter a username. Set a home directory path for this user. ![Setting Up FTP Server-path](/images/path.png) Enable authentication and set a password. Ensure both Read and Write permissions are enabled so users can upload and download. Testing the FTP Server\nUse any FTP client. I use WinSCP. Create a New Session: Protocol: FTP Port: 21 Host: Your server IP Username and Password as set above Click Save and connect. 🐧 Setting Up a Simple FTP Server on Linux\nHere is a step-by-step guide to set up an FTP server on Linux (Ubuntu): ✅ 1. Update packages\nsudo apt update\n✅ 2. Install vsftpd (Very Secure FTP Daemon)\nsudo apt install vsftpd\n✅ 3. Start and enable the vsftpd service\nsudo systemctl start vsftpd sudo systemctl enable vsftpd\n✅ 4. Configure vsftpd\nEdit the configuration file:\nsudo nano /etc/vsftpd.conf\nUncomment or add these lines to allow uploads and local user login:\nwrite_enable=YES local_enable=YES\n✅ 5. Restart the vsftpd service\nsudo systemctl restart vsftpd\n✅ 6. Test the FTP server\nYou can test your FTP server using any FTP client like FileZilla or WinSCP with the following details:\nHost: your server IP Username: your Linux username Password: your Linux user password Port: 21 ✅ 7. Test using command line\nftp localhost\nThen in your shell:\necho “This is my first FTP test file” \u003e ftp_test.txt\nInside the ftp\u003e prompt, upload the file:\nput ftp_test.txt\nExit FTP:\nbye\nDownload it back to test download functionality:\nftp localhost get ftp_test.txt downloaded_test.txt bye\nFinally, verify the file content:\ncat downloaded_test.txt\n✔️ You should see:\nThis is my first FTP test file\n📝 Now your FTP server is working successfully on Linux.\nLet me know if you want a secure FTP configuration guide (SSL/TLS) or automated user creation scripts for your DevOps and Linux notes this week.\n","wordCount":"536","inLanguage":"en","datePublished":"2024-04-14T00:00:00Z","dateModified":"2024-04-14T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://sanazmhd.github.io/projects/ftp-server/"},"publisher":{"@type":"Organization","name":"Sanaz’s Blog","logo":{"@type":"ImageObject","url":"https://sanazmhd.github.io/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://sanazmhd.github.io/ accesskey=h title="Sanaz’s Blog (Alt + H)">Sanaz’s Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=https://sanazmhd.github.io/fa/ title=فارسی aria-label=فارسی>Fa</a></li></ul></div></div><ul id=menu><li><a href=https://sanazmhd.github.io/tutorials/ title=Tutorials><span>Tutorials</span></a></li><li><a href=https://sanazmhd.github.io/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://sanazmhd.github.io/blog/ title=Blog><span>Blog</span></a></li><li><a href=https://sanazmhd.github.io/books/ title=Books><span>Books</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Setting Up an FTP Server: What, Why, and How?(Linux/Windows)</h1><div class=post-meta><span title='2024-04-14 00:00:00 +0000 UTC'>April 14, 2024</span>&nbsp;·&nbsp;3 min</div></header><div class=post-content><p>🤔 What is an FTP Server?</p><p>An FTP (File Transfer Protocol) server is a service that allows you to upload and download files. You might think:</p><pre><code>“Isn’t this a basic thing?”
+</code></pre><p>Yes, it seems simple, but it has powerful features:</p><pre><code>You can upload large numbers of files efficiently.
+
+Multiple users can connect simultaneously and transfer files.
+
+Both uploading and downloading are supported.
+</code></pre><hr><p>Where is FTP Used?</p><p>FTP servers are widely used in:</p><pre><code>Download servers that need to handle many files.
+
+Backup services to store backup files securely.
+
+Scanners that automatically upload scanned documents to a central location.
+
+Freelancers who need a space to upload their project files for clients or teammates.
+</code></pre><p>So yes – it is a very practical tool.</p><hr><p>💻 Setting Up FTP Server on Windows</p><p>For Windows, we use FileZilla Server. Let’s go step by step:</p><pre><code>Download and install FileZilla Server on your Windows machine.
+
+Remember: FileZilla has a client version too, but here we focus on the server. You can use any client (FileZilla Client, WinSCP, or even Windows File Explorer) to connect later.
+</code></pre><p><img alt=Download-File-Zilla loading=lazy src=/images/Download-File-Zilla.png>
+After installation:</p><pre><code>    Open FileZilla Server.
+
+    Go to Server settings-configure-administartion and set an admin password.
+    ![Setting Up FTP Server on Windows](/images/configure.png)
+     ![Setting Up FTP Server on Windows](/images/administartion.png)
+    
+
+    In Listener settings, set the IP to 0.0.0.0. This allows connections from all IPv4 and IPv6 addresses.
+     ![Setting Up FTP Server on Windows](/images/port.png)
+
+Create a User:
+</code></pre><p><img alt=users loading=lazy src=/images/user.png></p><pre><code>    Go to the Users section.
+
+    Click Add, enter a username.
+
+    Set a home directory path for this user.
+      ![Setting Up FTP Server-path](/images/path.png)
+
+    Enable authentication and set a password.
+
+    Ensure both Read and Write permissions are enabled so users can upload and download.
+</code></pre><hr><p>Testing the FTP Server</p><pre><code>Use any FTP client. I use WinSCP.
+</code></pre><p><img alt="Testing the FTP Server" loading=lazy src=/images/winscp.png>
+<img alt="Testing the FTP Server-host" loading=lazy src=/images/winscphost.png></p><pre><code>Create a New Session:
+
+    Protocol: FTP
+
+    Port: 21
+
+    Host: Your server IP
+
+    Username and Password as set above
+
+Click Save and connect.
+</code></pre><p>🐧 Setting Up a Simple FTP Server on Linux</p><p>Here is a step-by-step guide to set up an FTP server on Linux (Ubuntu):
+✅ 1. Update packages</p><p>sudo apt update</p><p>✅ 2. Install vsftpd (Very Secure FTP Daemon)</p><p>sudo apt install vsftpd</p><p>✅ 3. Start and enable the vsftpd service</p><p>sudo systemctl start vsftpd
+sudo systemctl enable vsftpd</p><p>✅ 4. Configure vsftpd</p><p>Edit the configuration file:</p><p>sudo nano /etc/vsftpd.conf</p><p>Uncomment or add these lines to allow uploads and local user login:</p><p>write_enable=YES
+local_enable=YES</p><p>✅ 5. Restart the vsftpd service</p><p>sudo systemctl restart vsftpd</p><p>✅ 6. Test the FTP server</p><p>You can test your FTP server using any FTP client like FileZilla or WinSCP with the following details:</p><pre><code>Host: your server IP
+
+Username: your Linux username
+
+Password: your Linux user password
+
+Port: 21
+</code></pre><p>✅ 7. Test using command line</p><p>ftp localhost</p><p>Then in your shell:</p><p>echo &ldquo;This is my first FTP test file&rdquo; > ftp_test.txt</p><p>Inside the ftp> prompt, upload the file:</p><p>put ftp_test.txt</p><p>Exit FTP:</p><p>bye</p><p>Download it back to test download functionality:</p><p>ftp localhost
+get ftp_test.txt downloaded_test.txt
+bye</p><p>Finally, verify the file content:</p><p>cat downloaded_test.txt</p><p>✔️ You should see:</p><p>This is my first FTP test file</p><p>📝 Now your FTP server is working successfully on Linux.</p><p>Let me know if you want a secure FTP configuration guide (SSL/TLS) or automated user creation scripts for your DevOps and Linux notes this week.</p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://sanazmhd.github.io/>Sanaz’s Blog</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

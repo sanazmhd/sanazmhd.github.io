@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tutorials on Sanaz’s Blog</title><link>https://sanazmhd.github.io/tutorials/</link><description>Recent content in Tutorials on Sanaz’s Blog</description><generator>Hugo -- 0.150.0</generator><language>en</language><lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sanazmhd.github.io/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️Flask Project</title><link>https://sanazmhd.github.io/tutorials/simple-flask-project/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://sanazmhd.github.io/tutorials/simple-flask-project/</guid><description>&lt;p&gt;Getting Started with Flask: A Super Simple Guide for Beginners&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re new to Python web development, Flask is the perfect place to start! It&amp;rsquo;s lightweight, beginner-friendly, and lets you build web apps quickly.&lt;/p&gt;
+&lt;p&gt;Let’s walk through a very simple Flask project, explain every line in detail:&lt;/p&gt;
+&lt;p&gt;🔧 What is Flask?&lt;/p&gt;
+&lt;p&gt;Flask is a small Python framework used to build websites and web applications.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Lightweight and easy to use
+Fast to build and test
+Great for learning web development
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;🛠️ The Simplest Flask App (Hello World)&lt;/p&gt;</description></item></channel></rss>
