@@ -3,8 +3,7 @@ title = "Sanaz’s Blog"
 theme = "PaperMod"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-publishDir = "docs"
+defaultContentLanguageInSubdir = false
 [pagination]
 pagerSize = 10000
 
